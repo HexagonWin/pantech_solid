@@ -1,0 +1,582 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	
+	
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="now">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>PANTECH</title>
+  <link rel="SHORTCUT ICON" href="/img/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="/common/css/default.css">
+  <script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/common/js/jquery.placeholder.min.js"></script>
+<!--<script type="text/javascript" src="/common/js/jquery.bxSlider-4.2.5.min.js"></script>-->
+<!--<script type="text/javascript" src="/common/js/agent.js"></script> -->  
+  <script type="text/javascript" src="/common/js/jquery.placeholder.min.js"></script>
+  <script type="text/javascript" src="/common/js/ui.js"></script>
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/common/css/ie8.css">
+  <![endif]-->
+ </head>
+ <body>
+	<a href="#content" class="skip">skip navigation</a>
+	<div id="body_wrap" class="en">
+	
+	<!-- Header -->
+		<!-- gnb menu -->
+		<div id="head_wrap">
+			<div class="gnb_wrap">
+				<div class="gnb">
+					<form action ="/main.do" method="post" id="ulcdForm"> 
+					<h1 class="logo">
+							<a href="#"onclick="language2();"><img src="/img/common/logo.png" alt="Pantech"></a>
+							 <input type="hidden" id="ulcd" name="ulcd" value="EN"/>
+					</h1>
+					</form> 
+					<ul class="gnb_menu">
+						<li class="g1dep">
+							<a href="/en/comInfo/greetCeo.do" class="gm gm0">Corporate</a>
+							<ul class="g2dep">
+								<li><a href="/en/comInfo/greetCeo.do">CEO</a></li>
+								<li>
+									<a href="#" class="has_list">Corporate Information <span class="ico_close"><span class="htxt">Open the sub menu</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/en/comInfo/summary.do">Summary</a></li>
+										<li><a href="/en/comInfo/philosophy.do">Corporate Philosophy</a></li>
+										<li><a href="/en/comInfo/ci.do">CI</a></li>
+									</ul>
+								</li>
+								<li><a href="/en/comInfo/history.do">History</a></li>
+								<li>
+									<a href="#" class="has_list">Business Network <span class="ico_close"><span class="htxt">Open the sub menu</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/en/comInfo/business.do">Overview</a></li>
+										<li><a href="/en/comInfo/technology.do">Technology</a></li>
+									</ul>
+								</li>
+								<li><a href="/en/comInfo/companyMap.do">Location</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/en/prod/productList.do?gbrand=VEGA" class="gm gm1">Product</a>
+							<ul class="g2dep">
+								<li><a href="/en/prod/productList.do?gbrand=VEGA">Domestic</a></li>
+								<li><a href="/en/prod/productList.do?gbrand=PANTECH">Overseas</a></li>
+								<li><a href="/en/prod/productList.do?gbrand=IOT">IoT</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/en/mngInfo/ecoPolicy.do" class="gm gm2">Environmental Management</a>
+							<ul class="g2dep">
+								<li><a href="/en/mngInfo/ecoPolicy.do">Environmental Management Policy</a></li>
+								<li><a href="/en/mngInfo/ecoSystem.do">Environmental Management System</a></li>
+								<li><a href="/en/mngInfo/ecoToxic.do">Hazardous Substances Management</a></li>
+								<li><a href="/en/mngInfo/ecoSupply.do">Supply Chain Substance Management</a></li>
+								<li><a href="/en/mngInfo/ecoDesign.do">Eco Design</a></li>
+								<li><a href="/en/mngInfo/ecoFriendly.do">Environment friendly Products</a></li>
+								<!-- <li><a href="/">Product Eco Declaration</a></li> -->
+								<li><a href="/en/mngInfo/ecoRecycle.do">Product Recycling</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/en/promotion/noticeBoard.do" class="gm gm3">Press Center</a>
+							<ul class="g2dep">
+								<li><a href="/en/promotion/noticeBoard.do">Notice</a></li>
+								<li><a href="/en/promotion/coverage.do">Press Release</a></li>
+								<li>
+									<a href="#" class="has_list">Advertising <span class="ico_close"><span class="htxt">Open the sub menu</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/en/promotion/tvAdvert.do">TV AD</a></li>
+										<li><a href="/en/promotion/printAdvert.do">Print</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<div class="gnb_info">
+						<div class="language">
+							<a href="/main.do" title="Korean">KO</a>
+						</div>
+						<div class="total_sch">
+							<button type="button" class="btn_tsch"><span class="htxt">Set the search form</span></button>
+						</div>
+					</div>
+
+					<div class="main_prd">
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<!-- 검색 레이어 -->
+		<div id="ly_tsch_wrap" class="">
+			<form id="searchFrm" method="post" action="/pantech/en/search/searchList.do" name="searchFrm"  onSubmit="searchFrmChk();return false;">
+				<input type="hidden" name="searchKeyword" id="searchKeyWord">
+				<fieldset>
+					<legend class="htxt">Search</legend>
+					<div class="box_tsch">
+						<input type="text" name="searchKeyword1" id="searchKeyWord1" class="input_keyword" size="30" placeholder="Please enter your search term">
+						<button type="submit" class="btn_schgo" onSubmit="searchFrmChk();return false;"><span class="htxt">Search</span></button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+
+		<!-- 로케이션 바 -->
+		<!-- 로케이션 바 -->
+		
+		<div class="location_wrap">
+			<div class="location">
+				<a href="/main.do" class="gohome"><img src="/img/common/ico_home.png" alt="home"></a>
+				
+				
+				<!-- menu 1 Depth -->
+				<div class="loca_select">
+					
+					<ul class="loca_sub">
+					
+					</ul>
+				</div>
+				
+				<!-- menu 2 Depth -->
+				
+				<div class="loca_select loca_end">
+				
+				
+				
+					
+					<ul class="loca_sub">
+					
+					</ul>
+				</div>
+				
+				<!-- menu 3 Depth -->
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		
+		<hr class="hide">
+	<!-- //Header -->
+<script type="text/javascript">
+//검색
+var searchFrmChk = function(){
+
+	if($("#searchKeyWord1").val() == ""){
+		alert("Please enter your search term.");
+		$("#searchKeyWord1").focus();
+		return false;
+	}  else{
+		var search = jQuery('#searchKeyWord1').val();
+		jQuery('#searchKeyWord').val(search);
+		searchFrm.submit();
+	}
+}
+
+var language2 = function(){
+	 
+		$("#ulcdForm").submit();
+}  
+
+</script>
+</head>
+<body>
+<form name="formList" id="formList" method="post" onsubmit="return false;">
+<input type="hidden" name="pageIndex" id="pageIndex" value="1"/>
+<input type="hidden" name="gbrand" id="gbrand" value="VEGA"/>
+<input type="hidden" name="kind" id="kind" value=""/>
+		<!-- content -->
+		<div id="content_wrap">
+
+			<div id="tit_cont1" class="tit_cont_wrap">
+				<div class="tit_cont"><h2 class="tit_page">PRODUCT</h2><p class="txt_addition">PANTECH leading design and innovation</p></div>
+			</div>
+
+			<div id="content" class="content">				
+			
+					
+						<!-- VEGA -->
+						<h3 class="tit_ty">Domestics</h3>
+					
+					
+					
+					
+			 
+
+			
+					
+						<ul class="tab_menu tab_product_list">
+							<li  class="on" ><a href="/en/prod/productList.do?gbrand=VEGA">All</a></li>
+							<li ><a href="/en/prod/productList.do?kind=SKT&gbrand=VEGA">SKT</a></li>
+							<li ><a href="/en/prod/productList.do?kind=KT&gbrand=VEGA">KT</a></li>
+							<li ><a href="/en/prod/productList.do?kind=LGU&gbrand=VEGA">LG U+</a></li>
+						</ul>
+					
+					
+					
+					
+			
+					
+					<ul class="product_list"><!-- IoT일때만 prod_iot 추가 중복클래스 -->
+
+
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=624&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008931&fileSn=0" alt=""></span>
+								<span class="name_product">I`m back</span>
+								<span class="model_product">IM-100S</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000008931','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000008931','8');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=623&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008930&fileSn=0" alt=""></span>
+								<span class="name_product">I`m back</span>
+								<span class="model_product">IM-100K</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000008930','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000008930','8');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=542&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008475&fileSn=0" alt=""></span>
+								<span class="name_product">POP-UP NOTE</span>
+								<span class="model_product">IM-A920S</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000008475','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000008475','8');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=506&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008005&fileSn=" alt=""></span>
+								<span class="name_product">IRON2</span>
+								<span class="model_product">IM-A910L</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000008005','');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000008005','13');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=505&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008004&fileSn=0" alt=""></span>
+								<span class="name_product">IRON2</span>
+								<span class="model_product">IM-A910K</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000008004','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000008004','14');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=504&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008003&fileSn=0" alt=""></span>
+								<span class="name_product">IRON2</span>
+								<span class="model_product">IM-A910S</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000008003','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000008003','14');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=486&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000007126&fileSn=11" alt=""></span>
+								<span class="name_product">Secret UP</span>
+								<span class="model_product">IM-A900L</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000007126','11');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000007126','12');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=485&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000007125&fileSn=11" alt=""></span>
+								<span class="name_product">Secret UP</span>
+								<span class="model_product">IM-A900K</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000007125','11');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000007125','12');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=484&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000007124&fileSn=0" alt=""></span>
+								<span class="name_product">Secret UP</span>
+								<span class="model_product">IM-A900S</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000007124','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000007124','12');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=446&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000005947&fileSn=0" alt=""></span>
+								<span class="name_product">Secret Note</span>
+								<span class="model_product">IM-A890L</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000005947','0');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000005947','13');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=445&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000005946&fileSn=12" alt=""></span>
+								<span class="name_product">Secret Note</span>
+								<span class="model_product">IM-A890K</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000005946','12');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000005946','13');return false;"></a>
+							
+							
+						</li>
+
+						<li>
+							<div class="img_product">
+							    <a href='/en/prod/productView.do?prod_idx=444&gbrand=VEGA&kind='>
+							    <span class="pic_product"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000005945&fileSn=6" alt=""></span>
+								<span class="name_product">Secret Note</span>
+								<span class="model_product">IM-A890S</span>
+								</a>
+							</div>
+							
+							
+							
+								<!-- 일반 이미지 <a href="#imgdown" class="img_download" title="이미지 다운로드"  onClick="ipage.fileDn('FILE_000000000005945','6');return false;"></a>  -->
+								<a href="#imgdown" class="img_download" title="download"  onClick="ipage.fileDn('FILE_000000000005945','13');return false;"></a>
+							
+							
+						</li>
+
+
+					</ul>
+<!-- 검색결과 없음 -->
+
+
+				<div class="paging_wrap">
+
+					 <div class="paging">
+						<a href="#" class="pg_on">1</a><span><a href="#" onclick="goSearch(2); return false;">2</a></span><span><a href="#" onclick="goSearch(3); return false;">3</a></span><span><a href="#" onclick="goSearch(4); return false;">4</a></span>
+
+					</div>
+
+					<div class="more_view"> 
+						<button type="button" class="btn_more_page" onclick="frmNextPage()">MORE</button>
+						<a href="#" class="btn_ty" onClick="frmList();">LIST</a>  
+						<button type="button" class="btn_sch_list"><span class="htxt">Search</span></button>
+					</div>
+					
+					<div class="ly_pg_sch">
+						<div class="select_box">
+							<label for="searchKey">
+								
+									All
+								
+								
+								
+								
+							</label>
+							<select id="searchKey" name="searchKey">
+								<option value="0"  >All</option>
+								<option value="1"  >Model</option>
+								<option value="2"  >Nick</option>
+							</select>
+						</div>
+
+						<div class="box_tsch">
+							<input type="text" id="searchKeyword" name="searchKeyword" class="input_keyword" size="50" tabindex="1" placeholder="Please enter your search term" value="">
+							<button type="submit" class="btn_schgo" onclick="frmSearch()"><span class="htxt">Search</span></button>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		<hr class="hide">
+		<!-- //content -->
+		
+		
+		<!-- footer -->
+		<div id="footer_wrap">
+			<div class="footer">
+				<div class="foot_logo"><a href="#"><img src="/img/common/logo_gray.png" alt="Pantech"></a></div>
+				<div class="foot_info">
+					<ul class="foot_menu">
+						<li><a href="/en/footer/privacyLegal.do">Legal</a></li>
+						<li><a href="/en/footer/privacyPolicy.do" class="txt_privacy">Privacy Policy</a></li>
+						<li><a href="/en/comInfo/companyMap.do">Location</a></li>
+						<li><a href="/en/footer/privacySiteMap.do">Sitemap</a></li>
+					</ul>
+					<address class="txt_address">Pantech Bldg, 179, Seongam-ro, Mapo-gu, Seoul, 03929, Korea </address>
+					<p class="txt_copyright">COPYRIGHT BY PANTECH ALL RIGHTS RESERVED.</p>
+				</div>
+			</div>
+			<button class="btn-top">Top</button>
+		</div>
+		<!-- //footer -->
+
+	</div>
+ </body>
+</html>
+</form>	
+<script type="text/javascript">
+$(document).ready(function() {
+	var searchKey = $('select#searchKey');
+	
+	searchKey.change(function(){
+		var select_name = $(this).children('option:selected').text();
+		$(this).siblings('label').text(select_name);
+	});
+	
+	$("input[name=searchKeyword]").keydown(function(key){
+	 	if(key.keyCode == 13){
+			frmSearch();
+	    }
+	});
+});
+//페이징
+function goSearch(page){
+	document.formList.pageIndex.value = page;
+	document.formList.action = "/en/prod/productList.do;jsessionid=266D12DF11BF29A55A23564F993573B1";
+   	document.formList.submit();
+}
+function frmNextPage(){
+	var pageIndex = document.formList.pageIndex.value;
+	var totalPageCount = "4";
+
+	if( Number(pageIndex) >= Number(totalPageCount) ){
+		return false;
+	}
+
+	document.formList.pageIndex.value = Number(pageIndex) + 1 ;
+	document.formList.action = "/en/prod/productList.do;jsessionid=266D12DF11BF29A55A23564F993573B1";
+   	document.formList.submit();
+}
+
+var ipage ={
+	fileDn: function(sAtchFileId,sFilesn){// 다운로드
+		window.open('/cmm/fms/FileDown.do?atchFileId=' + sAtchFileId + '&fileSn=' + sFilesn,'','');
+	}
+};
+//검색
+function frmSearch(){
+		if( document.formList.searchKeyword.value == "" ) {
+			alert("Please enter your search term");
+			document.formList.searchKeyword.focus() ;
+			return;
+		}
+		document.formList.pageIndex.value = 1 ;
+		document.formList.action = "/en/prod/productList.do;jsessionid=266D12DF11BF29A55A23564F993573B1";
+	   	document.formList.submit();
+}
+
+function frmList(){
+	document.formList.pageIndex.value = 1 ;
+	document.formList.searchKeyword.value = "" ;
+	document.formList.action = "/en/prod/productList.do;jsessionid=266D12DF11BF29A55A23564F993573B1";
+	document.formList.submit();
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,590 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="now" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PANTECH</title>
+	<link type="text/css" rel="stylesheet" href="/common/css/pantech_base.css" />
+	<link type="text/css" rel="stylesheet" href="/common/css/pantech_layout.css?v=20141121" />
+	<script type="text/javascript" src="/common/js/jquery-1.7.2.min.js "></script>
+	<script type="text/javascript" src="/common/js/pantech_ui.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.bxSlider.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<!--[if lt IE 9]>
+		<script src="/common/js/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+
+
+	
+</head>
+<body>
+	<div id="pantech_wrap">
+		<div id="pantech_nav">
+			<div class="nav">
+				<!-- HEADER -->
+				
+	<div id="skipNavi_header">
+		<ul>
+		<li><a href="#pantech_header">처음으로 가기</a></li>
+		<li><a href="#pantech_lnb">좌측 메뉴로 가기</a></li>
+		<li><a href="#pantech_utilMenu">유틸 메뉴로 가기</a></li>
+		<li><a href="#pantech_gnb">상단 메뉴로 가기</a></li>
+		<li><a href="#pantech_contents">본문으로 가기</a></li>
+		<li><a href="#pantech_footer">마지막으로 가기</a></li>
+		</ul>
+	</div>
+	<hr />
+	<div id="pantech_header">
+		<h1><a href="/index.do">PANTECH</a></h1>
+		<!-- 
+		<div class="languageBox">
+			<ul class="language">
+				<li class="kor"><a href="#" class="lang">Korea</a></li>
+				<li class="eng"><a href="#" class="lang">English</a></li>
+			</ul>
+		</div>
+		 -->
+	</div>
+				<!-- //HEADER -->
+				<!-- LNB & UTILMENU -->
+				
+
+
+
+    <!-- LNB -->
+<div id="pantech_lnb">
+        <ul class="lnb">
+        <li class="oneDepths">
+            <a href="/pantech/pantechMain.do" class="oneDepthsMenu "><img src="/images/ko/menu/menu_pantech_off.png" alt="팬텍" /></a>
+            <ul class="towDepths_wrap">
+                <li class="towDepths towDown">
+                    <a href="/pantech/pantechCeo.do"  >CEO</a><!-- 선택시 class="on" -->
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/pantech/pantechCeo.do" >인사말</a></li><!-- 선택시 class="on" -->
+                        <!--  <li class="threeDepths"><a href="/board/ceoPressBoardList.do" >언론에서 본 CEO</a></li>-->
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/pantech/pantechPhilosophy.do" >기업경영</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/pantech/pantechPhilosophy.do" >기업이념</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechCi.do" >CI</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechAffiliate.do" >개요</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/pantech/pantechHistoryYear.do" >역사</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/pantech/pantechHistoryYear.do" >연혁으로 보는 역사</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechHistoryProduct.do" >제품으로 보는 역사</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/pantech/pantechBusiness.do" >사업소개</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/pantech/pantechBusiness.do" >사업현황</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechDomestic.do" >국내</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechOverseas.do" >해외</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/pantech/pantechEcoPolicy.do" >환경경영</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/pantech/pantechEcoPolicy.do" >환경경영방침</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoSystem.do" >환경경영시스템</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoToxic.do" >유해물질관리</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoSupply.do" >공급망 물질관리</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoDesign.do" >에코디자인</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoFriendly.do" >친환경제품</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoDeclations.do" >자가선언</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechEcoRecycle.do" >제품 재활용</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths">
+                    <a href="/pantech/pantechTechnology.do"  >테크놀로지</a>
+                </li>
+
+                <li class="towDepths towDown">
+                    <a href="/board/noticeBoardList.do" >IR</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/board/noticeBoardList.do" >공지</a></li>
+                    <!--    <li class="threeDepths"><a href="/board/faqBoardList.do" >FAQ/Q&A</a></li> -->
+                        <li class="threeDepths"><a href="/board/elecNoticeBoardList.do" >전자공고</a></li>
+                        <li class="threeDepths"><a href="/pantech/pantechFinancial.do"  >재무정보</a></li>
+						<!-- 20160324/YIS/메뉴삭제
+                        <li class="threeDepths"><a href="/board/rehabilitationBoardList.do"  >기업회생게시판</a></li>
+                        <li class="threeDepths"><a href="/board/mergeBoardList.do"  >M&A 게시판</a></li>
+						-->
+                        
+                    </ul>
+                </li>
+                
+                <li class="towDepths">
+                    <a href="/pantech/pantechBizReport.do"  >지속가능경영</a>
+                </li>
+            </ul>
+        </li>   
+        <li class="oneDepths">
+            <a href="/prod/prodMain.do" class="oneDepthsMenu"><img src="/images/ko/menu/menu_product_off.png" alt="제품" /></a>
+            <ul class="towDepths_wrap">
+                <li class="towDepths"><a href="/prod/prodList.do?gbrand=VEGA" >국내모델</a></li>
+                <li class="towDepths"><a href="/prod/prodList.do?gbrand=PANTECH"  >해외모델</a></li>
+                <li class="towDepths"><a href="/prod/prodList.do?gbrand=IOT"  >IoT</a></li>
+            </ul>
+        </li>
+        <li class="oneDepths">
+            <a href="/board/reportBoardList.do" class="oneDepthsMenu on"><img src="/images/ko/menu/menu_pr_off.png" alt="소식"/></a>
+            <ul class="towDepths_wrap">
+                <li class="towDepths"><a href="/board/reportBoardList.do"   class="on" >보도자료</a></li>
+                <li class="towDepths"><a href="/board/cultureBoardList.do"  >팬택컬처</a></li>
+                <li class="towDepths"><a href="/board/rndStoryBoardList.do"  >R&D 스토리</a></li>
+                <li class="towDepths"><a href="/board/socialList.do"  >소셜팬택</a></li>
+                <li class="towDepths towDown">
+                    <a href="/gallery/galleryProdList.do" >갤러리</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/gallery/galleryProdList.do"  >제품</a></li>
+                        <li class="threeDepths"><a href="/gallery/gallerybuildingList.do" >사옥</a></li>
+                        <li class="threeDepths"><a href="/gallery/galleryRdList.do" >R&D</a></li>
+                        <li class="threeDepths"><a href="/gallery/galleryMakeList.do" >생산</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/board/adTVBoardList.do" >미디어</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/board/adTVBoardList.do">TV광고</a></li>
+                        <li class="threeDepths"><a href="/board/adPrintBoardList.do">인쇄광고</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths"><a href="https://www.pantech.co.kr/newsLetter/newsLetterForm.do" >뉴스레터</a></li>
+            </ul>
+        </li>
+        <li class="oneDepths">
+            <a href="#" onClick="window.open('http://recruit.pantech.co.kr/','','');return false;" class="oneDepthsMenu "><img src="/images/ko/menu/menu_recruit_off.png" alt="채용" /></a>
+            <!-- 채용
+            <ul class="towDepths_wrap">
+                <li class="towDepths towDown">
+                    <a href="/recruit/recruit_people.do" >인사시스템</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/recruit/recruit_people.do" >인재상</a></li>
+                        <li class="threeDepths"><a href="/recruit/recruit_personnel_policy.do" >인사제도</a></li>
+                        <li class="threeDepths"><a href="/recruit/recruit_introduce.do" >직무소개</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/recruit/recruit_notice_list.do" >채용정보</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/recruit/recruit_notice_list.do" >공지</a></li>
+                        <li class="threeDepths"><a href="/recruit/recruit_process.do" >채용절차</a></li>
+                        <li class="threeDepths"><a href="/recruit/recruit_online_apply.do" >채용공고</a></li>
+                        <li class="threeDepths"><a href="/recruit/recruit_always_apply.do" >상시지원</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/recruit/recruit_faq.do" >지원센터</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths"><a href="/recruit/recruit_faq.do" >채용 FAQ</a></li>
+                        <li class="threeDepths"><a href="/recruit/recruit_qna.do" >채용문의</a></li>
+                    </ul>
+                </li>
+            </ul>
+            -->
+        </li>
+    </ul>
+</div>  
+<!-- UTIL -->
+<div id="pantech_utilMenu">
+    <ul class="util mgl12">
+        <li class="menu01"><a href="/util/privacyLegal.do">법적고지</a></li>
+        <li class="menu02"><a href="/util/privacyTreat.do"><strong style="font-size: 10pt;">개인정보취급방침</strong></a></li>
+        <li class="menu03"><a href="/util/privacyPolicy.do"><strong style="font-size: 10pt;">개인정보처리방침</strong></a></li>
+        <li class="menu04"><a href="/util/privacyEmail.do">이메일주소무단수집거부</a></li>
+        <li class="menu05"><a href="/util/privacyMap.do">찾아오시는 길</a></li>
+    </ul>
+    <div class="mgt8"><a href="http://iaudit.pantech.com/" target="_blank"><img src="/images/ko/menu/utilmenu_cyber.gif" alt="사이버신문고" /></a></div>
+    <div class="familywrap mgt4">
+        <a href="#"><img src="/images/common/btn_family.gif" alt="FamilySite" /></a>
+        <div class="family">
+            <a href="#"><img src="/images/common/btn_family_on.png" alt="FamilySite" /></a>
+            <ul class="mgt15">
+                <li class="menu01"><a href="http://www.isky.co.kr" target="_blank">SKY</a></li>
+                <li class="menu03"><a href="http://www.skyservice.co.kr/main.sky" target="_blank">SKY 서비스센터</a></li>
+                <!--<li class="menu05"><a href="http://cloudlive.vegalive.co.kr/view/pages/home.jsp" target="_blank">Cloud Live</a></li>
+                <li class="menu06"><a href="http://medialive.vegalive.co.kr/" target="_blank">Media Live</a></li>
+                <li class="menu07"><a href="http://appsplay.vegalive.co.kr/main/main.sky" target="_blank">Appsplay</a></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //UTIL -->
+    
+				<!-- //LNB & UTILMENU -->
+			</div>
+		</div>
+		<div id="pantech_container" class="sub">
+			<div class="sub">
+				<!-- GNB -->
+				<div class="top_menu">
+					
+	<div>
+		<div id="pantech_gnb" class="floatR">
+			<!-- GNB -->
+			<div class="gnb">
+				<ul>
+					<li class="first"><a href="/util/cscenter.do"><img src="/images/ko/menu/gnb_01.gif" alt="CS Center" /></a></li>
+					<li><a href="https://www.pantech.co.kr/contactus/contactUsForm.do"><img src="/images/ko/menu/gnb_02.gif" alt="Contact Us" /></a></li>
+					<li><a href="/util/sitemap.do"><img src="/images/ko/menu/gnb_03.gif" alt="Sitemap" /></a></li>
+				</ul>
+			</div>
+			<!-- // GNB -->
+			<!-- GLOBAL -->
+			<div class="global topUtil">
+				<a href="#"><img src="/images/common/btn_global_off.gif" alt="Global" /></a>
+				<div class="global_menu">
+				<ul>
+					<li class="menu01"><a href="http://www.pantechusa.com/" target="_blank">USA</a></li>
+					<li class="menu02"><a href="http://jp.pantech.com/" target="_blank">Japan</a></li>
+				</ul>
+				</div>
+			</div>
+			<!-- // GLOBAL -->
+			<!-- language -->
+			<div class="language topUtil">
+				<a href="#"><img src="/images/common/btn_language_off.gif" alt="language" /></a>
+				<div class="language_menu">
+				<ul>
+					<li class="menu01"><a href="/">Korean</a></li>
+					<li class="menu02"><a href="/en/index.do">English</a></li>
+				</ul>
+				</div>
+			</div>
+			<!-- // language -->
+		</div>
+	</div>
+	<div class="sns_search">
+		<!-- TOP SEARCH -->
+		<form class="floatR" id="searchFrm" method="post" action="/search/searchList.do">
+			<fieldset id="top_search">
+			<input type="text" class="input_search" name="searchKeyword" id="id_searchKeyWord"/>
+			<a href="#" onClick="searchFrmChk();return false;"><img src="/images/common/btn_search.gif" alt="search" class="mgt4"/></a>
+			</fieldset>
+		</form>
+		<!-- // TOP SEARCH -->
+		<!-- PANTECH SNS -->
+		<ul class="top_sns mgr5 floatR">
+			<li><a href="#" onClick="snsLink('twitter','','pantech.com');return false;"><img src="/images/common/btn_tweets.gif" alt="PANTECH TWEETS"/></a></li>
+			<li><a href="#" onClick="snsLink('facebook','','pantech.com');return false;"><img src="/images/common/btn_facebook.gif" alt="PANTECH FACEBOOK"/></a></a></li>
+		</ul>
+		<!-- // PANTECH SNS -->
+	</div>
+<script type="text/javascript">
+var snsLink = function(sns,bitlyUrl,title){
+	if(bitlyUrl == ""){bitlyUrl = location.href;}
+	switch (sns) {
+		case "twitter":
+			/* var s_url = "http://twitter.com/share?url=" + escape(bitlyUrl) + "&text=" + encodeURIComponent(title + " ");
+			window.open(s_url,"twitter","width=400,height=500,scrolls=no").focus();
+			break; */
+			window.open('https://twitter.com/pantech','','');
+			break;
+		case "facebook":
+			/* var s_url = "http://www.facebook.com/share.php?u=" + escape(bitlyUrl) + "&t=" + encodeURIComponent(title);
+			window.open(s_url, "facebook", "width=550,height=500,scrolls=no").focus();
+			break; */
+			window.open('http://www.facebook.com/vega.kr','','');
+			break;
+	}
+};
+var searchFrmChk = function(){
+	if($("#id_searchKeyWord").val() == ""){
+		alert("검색어를 입력해주세요.");
+		$("#id_searchKeyWord").focus();
+		return false;
+	}else{
+		searchFrm.submit();
+	}
+}
+</script>
+				</div>
+				<!-- //GNB -->
+				<!-- CONTENTS -->
+				<div id="pantech_contents">
+					<!-- 보도자료 -->
+					<h2><img src="/images/ko/title/h2_pr_press.gif" alt="보도자료" /></h2>
+					<p class="page_description">팬택의 국내외 소식을 전합니다.</p>
+					<!-- 팬텍컬쳐 -->
+					<!-- <h2><img src="/images/ko/title/h2_pr_culture.gif" alt="펜텍컬쳐" /></h2>
+					<p class="page_description">팬택의 다양하고 재미있는 이야기를 전합니다.</p> -->
+					<!-- R&D 스토리 -->
+					<!-- <h2><img src="/images/ko/title/h2_pr_rnd.gif" alt="R&D 스토리" /></h2>
+					<p class="page_description">세계 시장을 선도하는 팬택의 기술성과를 소개합니다.</p> -->
+					<!-- BSS VIEW -->
+					<table class="view" cellspacing="0" cellpadding="0">
+						<caption>BOARD VIEW</caption>
+						<colgroup>
+							<col width="">
+							<col width="20%">
+						</colgroup>
+						<tr>
+							<td class="title">N˚6 Full HD “보기 위한 폰” 시대 선언</td>
+							<td class="date">2013.01.28</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="contents">
+								<P><STRONG>- 국내 최초 6인치급 Full HD LTE 스마트폰… 최고로 선명하고 화려한 디스플레이 &nbsp;</STRONG></P>
+<P><STRONG>- 국내 최초 후면터치기술 ‘V 터치’… 모션, 음성에 이은 또하나의 혁신으로 대화면 스마트폰을 한손에 </STRONG></P>
+<P><STRONG>- 국내 최초 전면 Full HD 30프레임(fps)카메라, 후면 13M 카메라… 김중만 사진작가가 인정한 최강의 카메라 </STRONG></P>
+<P><STRONG>- 팬택 이준우 부사장 “‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’로 보는 즐거움이라는 새로운 지평을 열어줄 것” </STRONG></P>
+<P><STRONG></STRONG>&nbsp;</P>
+<P align=center><STRONG><IMG title=588x320.jpg src="http://www.pantech.co.kr/cmm/fms/getImage.do?atchFileId=FILE_000000000003557"><BR style="CLEAR: both"></P></STRONG>
+<P>&nbsp;</P>
+<P>팬택이 국내 최초 Full HD LTE 스마트폰으로 보기 위한 스마트폰 시대의 개막을 선언했다. 최고로 선명하고 화려한 디스플레이로 보는 즐거움을 극대화했다. &nbsp; 팬택(대표이사 부회장 박병엽)은 국내 최초 6인치급 Full HD LTE 스마트폰 ‘베가 <SPAN lang=EN-US>N<SUP>O</SUP></SPAN>6 Full HD(VEGA <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD, 모델명: IM-A860S/K/L)’를 공개하고, 오는 2월 이동통신 3사를 통해 출고가 84만9천원으로 본격 출시한다고 밝혔다. &nbsp; 애칭은 ‘베가 <SPAN lang=EN-US>No<SUP>O</SUP>6</SPAN> Full HD’로 정해졌다. 국내 최초의 6인치급 대화면을 갖춘 Full HD 스마트폰이라는 의미와 스마트폰 시장의 핫이슈로 떠오른 화질과 화면크기 경쟁에서 한발 앞서 국내 LTE 스마트폰 시장 2위 자리를 공고히 하겠다는 의지를 담았다. </P>
+<P>&nbsp;</P>
+<P>‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’는 강력한 기능 6가지를 탑재했다. <STRONG>▲국내 최초 6인치급 Full HD 디스플레이 ▲국내 최초의 후면터치기술 ‘V터치’ ▲국내 최초 전면 Full HD 30프레임(fps) 카메라(후면 13M 카메라) ▲원격으로 제어하는 강력한 보안 기능 ‘V Protection’ ▲업그레이드된 최강의 슈퍼 배터리 팩 ▲한 손 사용성을 강화한 FLUX 1.7 UX</STRONG>는 소비자들에게 만족을 넘어 감동을 줄 수 있는 국내 제조사 최고의 역작이 되겠다는 팬택의 강력한 의지를 보여준다. </P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><STRONG>■ 최고로 선명하고 화려한 디스플레이… 국내 최초 6인치급 Full HD LTE 스마트폰 &nbsp;</STRONG> </P>
+<P>&nbsp;</P>
+<P>‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’는 Full HD와 6인치급 대화면의 조합으로 이제껏 경험할 수 없었던 최고로 선명하고 화려한 화질을 구현했다. 한층 더 자연스럽고 풍부해진 색감을 자랑하는 Natural IPS Pro 디스플레이에 Full HD가 더해져 HD급 디스플레이의 2.3배에 가까운 최고로 또렷하고 선명한 화질을 자랑한다. 특히, 6인치급(5.9인치)의 대화면은 일반인들이 육안으로 Full HD 화질을 즐기기에 최적의 화면크기다. PC와 동일한 화면을 스마트폰상에서도 확대하지 않고 선명하게 볼 수 있는 것은 물론, 넓은 화면으로 Full HD 컨텐츠를 감상하는 즐거움을 한층 배가시켰다. </P>
+<P>&nbsp;</P>
+<P><STRONG>■ 혁신기술로 대화면 스마트폰을 한손에… 국내 최초의 후면터치기술 ‘V 터치’ </STRONG></P>
+<P>&nbsp;</P>
+<P>팬택은 ‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’를 통해 모션, 음성에 이어 터치로 그 혁신을 이어간다. ‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’에는 팬택이 지닌 최첨단의 기술력이 결집된 ‘V 터치’가 탑재됐다. 국내 최초로 구현된 ‘V 터치’로 후면 터치패드를 이용해 화면전환, 전화받기, 애플리케이션을 실행할 수 있다. 특히, ‘V 터치’는 대화면 스마트폰 사용자들의 한 손 사용성을 고려한 팬택이 자랑하는 또 하나의 혁신기술이다. 두 손을 모두 사용하기 힘든 상황에서 한 손만으로도 스마트폰을 조작할 수 있도록 사용자들의 편의를 향상시켰다. &nbsp; </P>
+<P>&nbsp;</P>
+<P align=center><IMG title=b588x320.jpg src="http://www.pantech.co.kr/cmm/fms/getImage.do?atchFileId=FILE_000000000003580"><BR style="CLEAR: both"></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><STRONG>■ DSLR에 필적하는 화질… 국내 최초 전면 Full HD 30프레임(fps) 카메라, 후면 13M 카메라 </STRONG></P>
+<P>&nbsp;</P>
+<P>Full HD 화질로 초당 30프레임(fps) 촬영이 가능한 2M 전면 카메라를 비롯하여, 김중만 사진작가의 인정을 받은 베가의 1300만 화소 후면 카메라가 한층 더 강력해졌다. 전면 카메라로 동영상 촬영 시 1초에 30장의 이미지를 담을 수 있어 빠르고 선명하게 동영상을 촬영할 수 있으며, 후면 카메라에는 자연스러운 색감을 연출해주는 ‘블루필터(Blue Filter)’가 적용되어 DSLR에 필적하는 화질의 사진을 얻을 수 있다. 카메라를 원격 조작할 수 있는 ‘베가 리모트샷’ 기능도 추가됐다. ‘베가 리모트샷’은 원거리에 위치한 두 개의 기기를 카메라로 연결해준다. 실시간으로 동일한 화면을 공유하며 사진을 찍을 수 있어 대화면 스마트폰으로 원거리에서 촬영하는 것을 더욱 쉽게 만들어준다. &nbsp; </P>
+<P>&nbsp;</P>
+<P><STRONG>■ 원격으로 제어하는 강력한 보안기능 ‘V Protection’ ‘</STRONG></P>
+<P>&nbsp;</P>
+<P>베가 <SPAN lang=EN-US>N<SUP>O</SUP>6 </SPAN>Full HD’는 강력한 보안기능을 탑재하여 분실로 인한 개인정보 유출 가능성을 완벽히 차단했다. 사용자가 원격 제어 서비스를 활성화시켜두면 분실 이후 베가 서비스 센터 사이트(<A href="http://www.vegaservice.co.kr)를">www.vegaservice.co.kr)를</A> 통해 잠금 및 해제, 데이터 초기화를 할 수 있다. 데이터를 초기화함과 동시에 잠금 서비스를 이용할 수 있고, 사용자가 별도로 잠금 서비스를 요청하지 않아도 유심(USIM)이 변경되면 자동으로 잠금 기능이 활성화되어 개인 정보가 악의적으로 사용되는 것을 방지해준다. &nbsp; </P>
+<P>&nbsp;</P>
+<P><STRONG>■ 업그레이드 된 최강의 슈퍼 배터리 팩 </STRONG></P>
+<P>&nbsp;</P>
+<P>‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN>&nbsp;Full HD’는 한층 업그레이드 된 최강의 슈퍼 배터리 팩을 제공한다. 3,140mAh의 스마트폰 최고 용량 배터리, 경쟁 제품을 압도하는 최고 속도의 2시간 완전충전, 여기에 사이즈를 줄여 휴대성을 높인 2Port 충전기가 더해져 배터리에 대한 걱정 없이 마음껏 ‘베가 <SPAN lang=EN-US>N<SUP>O</SUP></SPAN>6 Full HD’가 제공하는 화려하고 선명한 멀티미디어 컨텐츠를 즐길 수 있다. </P>
+<P>&nbsp;</P>
+<P><STRONG>■ 한 손 사용성을 강화한 FLUX 1.7 UX </STRONG></P>
+<P><STRONG></STRONG>&nbsp;</P>
+<P>‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’는 휴대폰은 한 손으로 사용할 수 있어야 한다는 팬택의 철학이 담긴 스마트폰으로, 사용자환경(UX) 측면에서 한 손 사용성을 대폭 강화했다. 키패드, 동영상 컨트롤러, 다이얼러를 좌우로 움직여 한 손으로 입력하기 편리하게 만들어 주는 ‘원 핸드 컨트롤’은 6인치급 대화면을 한 손으로도 즐길 수 있게 해준다. 또한, 동시에 최대 9개의 기능을 작은 창으로 실행할 수 있는 ‘멀티 미니 윈도우’, 리스트와 상세화면을 한 화면에서 보여주는 ‘태블릿 뷰’ 등을 지원해 6인치급 대화면을 효율적으로 사용할 수 있으며 Full HD 고해상도를 즐길 수 있는 Graphic UI를 제공한다. &nbsp; </P>
+<P>&nbsp;</P>
+<P>‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’는 안드로이드 최신 운영체제 젤리빈(Android 4.1)을 탑재하였으며, 컬러는 화이트와 블랙 두 가지로 우선 출시된다. &nbsp; </P>
+<P>&nbsp;</P>
+<P>팬택 사업총괄 이준우 부사장은 “베가는 스카이 제품군에서 가장 빛나는 별(the brightest star in the SKY)이라는 의미를 담고 있다”며 “그런 의미에서 ‘베가 <SPAN lang=EN-US>N<SUP>O</SUP>6</SPAN> Full HD’는 스마트폰 사용자들에게 보는 즐거움이라는 새로운 지평을 열어줄 것을 확신한다”라고 강조했다. &nbsp; &nbsp;</P>
+							</td>
+						</tr>
+					</table>
+					<!-- //BSS VIEW -->
+					<!-- BUTTON -->
+					<div class="buttons pdt15 mgb40 borderT_gray01">
+						<div class="floatL pdl20" >
+							
+								
+									<a href="#" class="btn_prev" onclick="frmView('4580 ');return false;" title="이전글">이전글</a>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							
+								
+									<a href="#" class="btn_next" onclick="frmView('4883');return false;" title="다음글">다음글</a>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+						</div>
+						<div class="floatR" >
+							<a href="#" class="btn_blue_02" onclick="frmList();return false;">목록</a>
+						</div>
+					</div>
+					<!--// BUTTON -->
+					<!-- THUMLIST -->
+					<ul class="thumList_view borderT_blue02">
+
+						<li>
+							<a href="#" onclick="frmTopView('11791');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80?atchFileId=FILE_000000000008997&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											팬택, SKY 아임백(IM-100) ...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" onclick="frmTopView('11790');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80?atchFileId=FILE_000000000008995&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											팬택, 아임백(IM-100) 소프트웨...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" onclick="frmTopView('11789');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80?atchFileId=FILE_000000000008994&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											팬택 또 하나의 키스톤 플레이  팬택...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" onclick="frmTopView('11785');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80?atchFileId=FILE_000000000008980&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											팬택, 부활의 시작 ‘SKY, IM-...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+					</ul>
+					<!-- // THUMLIST -->
+				</div>
+				<!-- CONTENTS -->
+				<!-- FOOTER -->
+				
+
+
+
+    <div id="pantech_footer">
+        <img src="/images/ko/footer/footer_04.gif" class="mgb6" alt=""/><br/>
+        <img src="/images/common/copyright.gif" alt="Copyright BY Pantech. All Rights Reserved."/>
+
+        <!-- 모바일 버젼으로 보기 -->
+        
+        <!-- 모바일 버젼으로 보기 -->
+    </div>
+    <hr />
+    <div id="skipNavi_footer">
+        <ul>
+        <li><a href="#pantech_header">처음으로 가기</a></li>
+        <li><a href="#pantech_lnb">좌측 메뉴로 가기</a></li>
+        <li><a href="#pantech_utilMenu">유틸 메뉴로 가기</a></li>
+        <li><a href="#pantech_gnb">상단 메뉴로 가기</a></li>
+        <li><a href="#pantech_contents">본문으로 가기</a></li>
+        <li><a href="#pantech_footer">마지막으로 가기</a></li>
+        </ul>
+    </div>
+
+<!-- google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33536532-1']);
+  _gaq.push(['_setDomainName', 'pantech.co.kr']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+				<!-- //FOOTER -->
+			</div>
+		</div>
+	</div>
+<form name="formView" id="formView" method="post" enctype="multipart/form-data">
+<input type="hidden" name="pageIndex" id="pageIndex" value="1"/>
+<input type="hidden" name="bbsID" id="bbsID" value="report"/>
+<input type="hidden" name="val4" id="val4" value="" />
+<input type="hidden" name="val8" id="val8" value="reg_dt"/>
+<input type="hidden" name="seq" id="seq" />
+<input type="hidden" name="sdt" id="sdt" value="" />
+<input type="hidden" name="edt" id="edt" value="" />
+<input type="hidden" name="ulcd" id="ulcd" value="KO"/>
+</form>	
+<script type="text/javascript">
+	function frmView(seq){
+		if(seq == "" || seq == 0 || seq == null){
+			alert("페이지가 없습니다.");
+			return;
+		}else{
+		document.formView.seq.value = seq;
+		document.formView.action = "/board/reportBoardView.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80";
+	   	document.formView.submit();
+		}
+	}
+	
+	function frmTopView(seq){
+		document.formView.seq.value = seq;
+		document.formView.sdt.value = "";
+		document.formView.edt.value = "";
+		document.formView.val4.value = "";
+		document.formView.pageIndex.value = 1;
+		document.formView.action = "/board/reportBoardView.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80";
+	   	document.formView.submit();
+	}
+	
+	function frmList(){
+		document.formView.action = "/board/reportBoardList.do;jsessionid=4B49C30C34FA22C9835207A6B3BA6C80";
+	   	document.formView.submit();
+	}
+	
+</script>
+</body>
+</html>

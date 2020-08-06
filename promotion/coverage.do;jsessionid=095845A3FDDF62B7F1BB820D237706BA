@@ -1,0 +1,548 @@
+
+
+
+		
+
+
+	
+	
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="now">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>PANTECH</title>
+  <link rel="SHORTCUT ICON" href="/img/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="/common/css/default.css">
+  <script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/common/js/jquery.placeholder.min.js"></script>
+  <script type="text/javascript" src="/common/js/ui.js"></script>
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/common/css/ie8.css">
+  <![endif]-->
+ </head>
+ <body>
+	<a href="#content" class="skip">본문 바로가기</a>
+	<div id="body_wrap">
+	
+	<!-- Header -->
+		<!-- gnb menu -->
+		<div id="head_wrap">
+			<div class="gnb_wrap">
+				<div class="gnb">
+					<h1 class="logo"><a href="/main.do"><img src="/img/common/logo.png" alt="Pantech"></a></h1>
+					<ul class="gnb_menu">
+						<li class="g1dep">
+							<a href="/comInfo/greetCeo.do" class="gm gm0">기업정보</a>
+							<ul class="g2dep">
+								<li><a href="/comInfo/greetCeo.do">CEO인사말</a></li>
+								<li>
+									<a href="#" class="has_list">회사소개 <span class="ico_close"><span class="htxt">서브메뉴보기</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/comInfo/summary.do">개요</a></li>
+										<li><a href="/comInfo/philosophy.do">기업이념</a></li>
+										<li><a href="/comInfo/ci.do">CI</a></li>
+									</ul>
+								</li>
+								<li><a href="/comInfo/history.do">연혁</a></li>
+								<li>
+									<a href="#" class="has_list">사업소개 <span class="ico_close"><span class="htxt">서브메뉴보기</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/comInfo/business.do">사업현황</a></li>
+										<li><a href="/comInfo/technology.do">테크놀로지</a></li>
+									</ul>
+								</li>
+								<li><a href="/comInfo/companyMap.do">회사위치</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/prod/productList.do?gbrand=VEGA" class="gm gm1">제품정보</a>
+							<ul class="g2dep">
+								<li><a href="/prod/productList.do?gbrand=VEGA">국내모델</a></li>
+								<li><a href="/prod/productList.do?gbrand=PANTECH">해외모델</a></li>
+								<li><a href="/prod/productList.do?gbrand=IOT">IoT</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/mngInfo/ecoPolicy.do" class="gm gm2">경영정보</a>
+							<ul class="g2dep">
+								<li>
+									<a href="#" class="has_list">환경경영 <span class="ico_close"><span class="htxt">서브메뉴보기</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/mngInfo/ecoPolicy.do">환경경영방침</a></li>
+										<li><a href="/mngInfo/ecoSystem.do">환경경영시스템</a></li>
+										<li><a href="/mngInfo/ecoToxic.do">유해물질관리</a></li>
+										<li><a href="/mngInfo/ecoSupply.do">공급망물질관리</a></li>
+										<li><a href="/mngInfo/ecoDesign.do">에코디자인</a></li>
+										<li><a href="/mngInfo/ecoFriendly.do">친환경제품</a></li>
+										<li><a href="/mngInfo/ecoRecycle.do">제품재활용</a></li>
+									</ul>
+								</li>
+								<li><a href="/mngInfo/elecNotice.do">전자공고</a></li>
+								<li><a href="/mngInfo/businessReport.do">사업보고서</a></li>
+								<li><a target="_blank" href="http://dart.fss.or.kr/html/search/SearchCompanyIR3_M.html?textCrpNM=%ED%8C%AC%ED%83%9D">공시</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/recruit/talent.do" class="gm gm3">채용정보</a>
+							<ul class="g2dep">
+								<li><a href="/recruit/talent.do">인재상</a></li>
+								<li><a href="/recruit/personnel.do">인사제도</a></li>
+								<li><a href="/recruit/duty.do">직무소개</a></li>
+								<li><a href="http://recruit.pantech.co.kr/Main.do" target="_blank">채용공고</a></li>
+							</ul>
+						</li>
+						<li class="g1dep">
+							<a href="/promotion/noticeBoard.do" class="gm gm4">홍보센터</a>
+							<ul class="g2dep">
+								<li><a href="/promotion/noticeBoard.do">공지사항</a></li>
+								<li><a href="/promotion/coverage.do">보도자료</a></li>
+								<li><a href="/promotion/pantechStory.do">팬택스토리</a></li>
+								<li><a href="/promotion/brandStory.do">브랜드스토리</a></li>
+								<li>
+									<a href="#" class="has_list">Advertising <span class="ico_close"><span class="htxt">서브메뉴보기</span></span></a>
+									<ul class="g3dep">
+										<li><a href="/promotion/tvAdvert.do">TV광고</a></li>
+										<li><a href="/promotion/printAdvert.do">인쇄광고</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					
+				<form action ="/main.do" method="post" id="ulcdForm"> 
+					<div class="gnb_info">
+						<div class="language">
+							<a href="#" title="영문" onclick="language2();">EN</a> 
+							 <input type="hidden" id="ulcd" name="ulcd" value="EN"/>
+						</div>
+						<div class="total_sch">
+							<button type="button" class="btn_tsch"><span class="htxt">검색 레이어 열기</span></button>
+						</div>
+					</div>
+				</form> 
+					<div class="main_prd">
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- 검색 레이어 -->
+		<div id="ly_tsch_wrap" class="">
+			<form id="searchFrm" method="post" action="/pantech/search/searchList.do" name="searchFrm"  onSubmit="searchFrmChk();return false;">
+			<input type="hidden" name="searchKeyword" id="searchKeyWord">
+				<fieldset>
+					<legend class="htxt">통합검색</legend>
+					<div class="box_tsch">
+						<input type="text" name="searchKeyword1" id="searchKeyWord1" class="input_keyword" size="30" placeholder="검색어를 입력하세요.">
+						<button type="submit" class="btn_schgo" onSubmit="searchFrmChk();return false;"><span class="htxt">검색</span></button>
+					</div>
+				</fieldset>
+			</form>
+				<!--<form class="floatR" id="searchFrm" method="post" action="/search/searchList.do">
+			<fieldset id="top_search">
+			<input type="text" class="input_search" name="searchKeyword" id="id_searchKeyWord"/>
+			<a href="#" onClick="searchFrmChk();return false;"><img src="/images/common/btn_search.gif" alt="search" class="mgt4"/></a>
+			</fieldset> 
+		</form> -->
+		</div>
+
+		<!-- 로케이션 바 -->
+		
+		<div class="location_wrap">
+			<div class="location">
+				<a href="/main.do" class="gohome"><img src="/img/common/ico_home.png" alt="홈"></a>
+				
+				
+				<!-- menu 1 Depth -->
+				<div class="loca_select">
+					
+					<ul class="loca_sub">
+					
+					</ul>
+				</div>
+				
+				<!-- menu 2 Depth -->
+				
+				<div class="loca_select loca_end">
+				
+				
+				
+					
+					<ul class="loca_sub">
+					
+					</ul>
+				</div>
+				
+				<!-- menu 3 Depth -->
+				
+				
+			</div>
+			
+			
+			
+			
+			
+			
+		</div>
+		
+		<hr class="hide">
+	<!-- //Header -->
+<script type="text/javascript">
+//검색
+var searchFrmChk = function(){
+
+	if($("#searchKeyWord1").val() == ""){
+		alert("검색어를 입력해주세요.");
+		$("#searchKeyWord1").focus();
+		return false;
+	}  else{		
+		var search = jQuery('#searchKeyWord1').val();
+		jQuery('#searchKeyWord').val(search);
+		searchFrm.submit();
+	}
+}
+
+var language2 = function(){
+	 
+		$("#ulcdForm").submit();
+}  
+
+</script>
+
+		
+		<!-- content -->
+		<div id="content_wrap">
+
+			<div id="tit_cont4" class="tit_cont_wrap">
+				<div class="tit_cont"><h2 class="tit_page">홍보센터</h2><p class="txt_addition">여러분과 이야기하는 PANTECH</p></div>
+			</div>
+
+			<div id="content" class="content">
+				<h3 class="tit_ty">보도자료</h3>
+				
+				
+				
+				<div class="report_list">
+					<ul>
+						
+						<li>
+							<a href="#" onclick="frmView(11791);return false;">
+								<div class="rl_img">
+									<img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008997&fileSn=0"
+									onerror="this.src='/mgr/images/common/thumnail_noimage.gif'" alt="">
+								</div>
+								<span class="rl_subject">팬택, SKY 아임백(IM-100) ‘웰컴 보이스’ 기능과 함께하는  ‘컬투의 아임백쇼’ 이벤트 실시</span>
+								<p class="rl_summary">
+									-&nbsp;친구 또는 가족 등 지인에게 평소 들려주고 싶었던 말을 사연과 함께 9월 8일까지 이벤트 응모-&nbsp;응모자 중 총 100분에게 SKY 아임백(IM-100)의 행운과 컬투의 생생한 영상 메시지까지 전달팬택(대표이사 정준)은 SKY 아임백(IM-100)의 업그레이드 된 ‘웰컴 보이스’ 기능을 소비자들이 함께 체험할 수 있도록 아임백(IM-100) 경품 100대를 제공하는 ‘컬투의 아임백쇼’ 이벤트를 8월 25일부터 9월 9일까지 실시한다고 밝혔다.‘웰컴 보이스’는 외출 후 집으로 돌아와 스톤(STONE) 근처에 오면 고객이 설정한 음성으로 반겨주는 기능이다. 음성 설정은 기본으로 제공되는 음성 이외에 사용자가 직접 원하는 사운드(음악이나 녹음파일)를 추가해서 설정할 수 있어 일과를 마치고 집에 돌아왔을 때 사용자가 외롭지 않도록 환한 빛과 더불어 사랑하는 가족이나 연인의 목소리가 함께 반겨주는 감성적인 만족감을 느낄 수 있는 기능이다.&nbsp;‘컬투의 아임백쇼’ 이벤트 응모는 이달 25일부터 다음달 8일까지 이벤트 사이트(http://www.im100event.co.kr)에 접속하여 친구 또는 가족 등 지인 혹은 나 자신에게 평소에 들려주고 싶었던 말과 사연을 작성하면 된다. 100명의 당첨자 발표는 9월 9일 이벤트 사이트에서 보이는 라디오 ‘컬투의 아임백쇼’ 라이브 생방송에서 컬투의 맛갈나는 사연 소개와 함께 발표될 예정이다. 또한, 당첨자에게는 ‘컬투의 아임백쇼’ 이후 SKY 아임백(IM-100) 경품과 더불어 컬투만의 재치 있는 멘트가 담긴 영상메시지가 함께 전달될 예정이다. 자세한 사항은 이벤트 사이트에서 확인할 수 있다.팬택 마케팅본부장 이용준 전무는 “이번 ‘컬투의 아임백쇼’ 이벤트는 현대인의 바쁜 일상 속의 외로움을 아임백(IM-100)의 ‘웰컴 보이스’ 기능을 통해 사랑하는 사람들의 목소리를 들으며 위로할 수 있는 즐거움과 기쁨을 고객들과 함께 할 수 있기 위해 이벤트를 준비하게 되었다”고 말했다. (이상)
+								</p>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#" onclick="frmView(11790);return false;">
+								<div class="rl_img">
+									<img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008995&fileSn=0"
+									onerror="this.src='/mgr/images/common/thumnail_noimage.gif'" alt="">
+								</div>
+								<span class="rl_subject">팬택, 아임백(IM-100) 소프트웨어 업그레이드 실시</span>
+								<p class="rl_summary">
+									-&nbsp;‘아임백(IM-100)’, 고객의 요구와 아이디어에 부응한 소프트웨어 업그레이드 26일부터 실시-&nbsp;음성 지원, 고객 사용 편의 기능 추가… ‘웰컴 음성’, ‘알람(날씨) 음성 지원’, ‘알람 해제 후 앱 실행’ 등-&nbsp;지속적인 사후지원 서비스 강화… ‘서비스센터 점진적 확대’ 및 ‘SKY 모바일 A/S’ 도입 예정팬택(대표이사 정준)은 지난달&nbsp;30일 출시한 아임백(IM-100)에 대한 사후지원 강화를 위하여&nbsp;26일부터&nbsp;SKT, KT통신사별로 소프트웨어 업그레이드를 실시한다고 밝혔다.<o:p></o:p>&nbsp;금번 배포되는 소프트웨어 업그레이드 버전에는 아임백(IM-100)&nbsp;출시 이후 고객의 요구와 아이디어에 부응하여 ‘웰컴 기능’,&nbsp;‘알람 시간 및 날씨 정보의 음성 지원(이하 알람(날씨)&nbsp;음성 지원 기능)’과 같은 아임백(IM-100)과 스톤(STONE)의 한 단계 진화된 기능과 ‘알람 해제 후 앱 실행’,&nbsp;‘알람 시 스톤(STONE)&nbsp;자동 연결’ 등과 같은 고객 사용 편의 기능 그리고,&nbsp;‘스톤(STONE)의&nbsp;LED의 꺼짐 상태 표시’ 등을 추가 했다.<o:p></o:p>&nbsp;특히, ‘웰컴 기능’은 외출 후 집으로 돌아와 스톤(STONE)&nbsp;근처에 오면 무드램프로 고객을 반겨주는 웰컴 라이팅의 강화된 기능으로 웰컴 라이팅이 점등되면서 고객이 설정한 웰컴 음성이 함께 제공되는 기능이다.&nbsp;웰컴 음성은 기본으로 웰컴 멜로디&nbsp;1종과 웰컴 음성&nbsp;8종이 제공되며,&nbsp;사용자가 다른 사운드(음악이나 녹음파일)를 최대&nbsp;5개까지 추가 할 수 있다.&nbsp;이제,&nbsp;일과를 마치고 집에 돌아왔을 때 사용자가 외롭지 않도록 환한 빛과 더불어 가족이나 연인의 음성이 함께 반겨주는 감성적인 만족감을 느낄 수 있을 것이다.<o:p></o:p>&nbsp;이외에도 알람이 울릴 때 알람 시간 정보와 현재 위치의 날씨 변화를 알려주는&nbsp;‘알람(날씨)&nbsp;음성 지원 기능’,&nbsp;알람이 울릴 때 해제하면 사용자가 사전에 설정한 앱(캘린더,&nbsp;음악,&nbsp;날씨,&nbsp;뉴스 등)이 자동으로 실행되는&nbsp;‘알람 해제 후 앱 실행 기능’,&nbsp;알람이 울릴 때 스톤(STONE)과 연결 되어있지 않아도 자동으로 연결하여 알람음을 스톤(STONE)에서도 울릴 수 있도록 하는&nbsp;‘알람 시 스톤(STONE)&nbsp;자동 연결 기능’이 제공된다.&nbsp;또한,&nbsp;스톤(STONE)&nbsp;전면에 있는&nbsp;LED&nbsp;밝기 조절을 통하여 스톤(STONE)의 켜짐과 꺼짐 상태를 쉽게 구분할 수 있도록 했다.<o:p></o:p>&nbsp;한편,&nbsp;팬택은 고객들이 불편을 겪지 않도록 사후지원 서비스에 더욱 집중한다는 방침이다.&nbsp;소프트웨어 업그레이드 이외에도 고객들이 보다 편리하게 이용할 수 있도록 이달&nbsp;12일부터 진행중인&nbsp;‘SKY&nbsp;택배 서비스’에&nbsp;‘대여폰 서비스’를 결합한&nbsp;‘SKY&nbsp;모바일&nbsp;A/S’도 곧 선보일 예정이다.&nbsp;팬택 마케팅본부장 이용준 전무는&nbsp;“앞으로도 지속적으로 고객의 목소리에 귀를 기울일 것이다”며, “SKY&nbsp;스마트폰 사용자들이 불편함을 겪지 않도록 서비스센터를 점진적으로 확대하고 고객이 감동할 수 있는 서비스가 제공될 수 있도록 사후지원 서비스 품질을 강화하겠다”고 말했다.(이상)
+								</p>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#" onclick="frmView(11789);return false;">
+								<div class="rl_img">
+									<img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008994&fileSn=0"
+									onerror="this.src='/mgr/images/common/thumnail_noimage.gif'" alt="">
+								</div>
+								<span class="rl_subject">팬택 또 하나의 키스톤 플레이  팬택 - Jaybird, ‘X2’ 50% 할인구매 공동 이벤트 실시</span>
+								<p class="rl_summary">
+									-&nbsp;‘IM-100’, 블루투스 이어폰 끝판왕 Jaybird ‘X2’와 만남… 원음에 가까운 품질의 음악 감상-&nbsp;‘IM-100’ 구매 고객 중 Jaybird ‘X2’ 구매하는 고객에게 50% 할인구매 기회 제공팬택(대표이사 정준)은 이어폰 전문 제조사 제이버드(Jaybird)와 함께 30일 출시되는 ‘IM-100’ 구매 고객 대상으로 Jaybird ‘X2’ 50% 할인구매 공동 이벤트를 실시한다고 28일 밝혔다. 이번 이벤트는 ‘IM-100’ 구매 및 개통 한 고객에게 1회에 한하여 Jaybird ‘X2’를 50% 할인된 가격에 구매할 수 있는 기회를 제공하며, 오는 30일부터 8월 31일까지 진행한다.‘IM-100’ 구매한 고객은 SKY 브랜드 홈페이지(http://www.isky.co.kr)와 Jaybird 홈페이지(http://www.jaybird.co.kr)에서 ‘X2’ 제품을 19만9000원에서 9만9천500원으로 50% 할인된 가격에 구매할 수 있으며, 자세한 사항은 해당 홈페이지에서 확인할 수 있다.Jaybird ‘X2’는 전작인 ‘BBX’의 음질에서 더욱 개선되어 블루투스 이어폰에서 경험할 수 있는 최상의 음질을 구현했으며, 소형 이어폰이지만 최대 8시간 재생이라는 배터리의 성능까지 최고의 기능을 선보인다. 보다 편안한 착용감과 외부 소음 차단을 위한 컴플라이 폼 팁이 내장품으로 구성되어 완벽한 착용감과 최적의 소리를 느낄 수 있다.&nbsp;Jaybird ‘X2’는 스마트폰 방수로 유명한 미국 LlquipelTM의 신형 방수기술이 세계 최초로 적용되어, 땀에 대한 방수 기능은 물론, 신형 나노 코팅을 적용하고 리모컨 버튼부에도 땀과 수분이 스며들지 않도록 보강해 스포츠에 최적화됐다. Jaybird ‘X2’는 완벽한 음질과 뛰어난 기능으로 국내에선 ‘블루투스 이어폰의 끝판왕’이라 불리고 있다.한편, 30일 출시 예정인 ‘IM-100’은 블루투스 이어폰에서 CD 수준의 고음질 음원을 감상할 수 있는 퀄컴의 APT-X 코덱이 지원되고, 휠 키를 기반으로 직관적이고 정밀한 100단계의 볼륨 조절과 어느 화면에서나 휠 키를 눌러 음악을 실행할 수 있는 ‘원 플레이어(ONE Player)’ 기능이 적용되어 휠 키 조작 만으로 자신의 재생 목록 중 듣고 싶은 음악을 간편하게 선택하여 감상할 수 있다.팬택 마케팅본부장 이용준 전무는 “‘IM-100’은 음질에 대한 소비자 요구를 반영하여 오디오 기능을 강화한 제품이고, Jaybird ‘X2’는 완벽한 음질과 뛰어난 기능의 블루투스 이어폰 제품”이라며, “고객들이 더욱 향상된 원음에 가까운 품질의 음악을 감상 할 수 있도록 Jaybird와 함께 공동 이벤트를 준비하게 되었다”고 말했다.
+								</p>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#" onclick="frmView(11785);return false;">
+								<div class="rl_img">
+									<img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008980&fileSn=0"
+									onerror="this.src='/mgr/images/common/thumnail_noimage.gif'" alt="">
+								</div>
+								<span class="rl_subject">팬택, 부활의 시작 ‘SKY, IM-100’ 공개</span>
+								<p class="rl_summary">
+									-&nbsp;심플함으로 돌아온 IM-100-&nbsp;오디오, LCD, 무선충전 등 실속 있는 가치를 제공하는 IM-100-&nbsp;음악과 멀티미디어 사용성 강화에 집중한 휠 키 UX-&nbsp;라이프 스타일을 바꿔줄 STONE부활을 위해 전열을 가다듬은 팬택이 1년 7개월만에 SKY만의 차별화된 디자인과 기능으로 무장한 ‘IM-100’을 앞세워 다시 한번 국내시장 공략에 나선다.팬택(www.pantech.co.kr, 대표이사 정준)은 22일 서울 상암동 팬택 R&amp;D센터에서 기자간담회 행사를 갖고‘SKY(www.iSKY.co.kr)’의 새로운 시작을 알리는 ‘IM-100(모델명: IM-100S/K)’을 공개했다. ‘IM-100’은 다음 주 SK텔레콤과 KT를 통해 본격 출시된다.팬택 문지욱 사장은 “ ‘IM-100’은 스펙 경쟁보다는 고객에게 실질적으로 도움이 되는 것이 무엇인지를 깊게 고민하고, 고객의 생활을 좀 더 편하고 즐겁고 풍요롭게 해 드리겠다는 마음을 담아 만들었다”라로 밝혔다.팬택은 ‘IM-100’과 함께 ‘STONE’도 공개했다. ‘STONE’은 단순히 스마트폰 액세서리가 아닌 ‘IM-100’과 연동되어 일상생활 속에서 무선충전, 알람, 감성적 무드램프 등 다양한 부가적인 가치 창출과 즐거움의 새로운 라이프 스타일을 제공한다.□&nbsp;심플함으로 돌아온 IM-100&nbsp;‘IM-100’은 SKY 디자인 철학인 ‘세련된 절제미’를 담아 심플한 조형과 정제된 디자인으로 완성했다. 아날로그 감성이 녹아있는 휠 키를 강조한 감각적인 SKY만의 스타일로 표현했으며, ‘STONE’과의 디자인적 일체감을 구현했다. 뿐만 아니라 바디의 화이트, 블랙에 어우러진 메탈의 고유색상으로 절제된 고급스러움을 더했다.‘IM-100’은 심플함을 강조하기 위해 통신사 로고와 SKY 로고마저 표현하지 않았으며, 바디는 메탈에 적용되는 정밀가공 기술을 활용하여 디테일까지도 정교하게 완성했다.&nbsp;□&nbsp;오디오, LCD, 무선충전 등 실속 있는 가치를 제공하는 IM-100‘IM-100’은 7mm대 두께와 130g의 무게로 한층 더 가볍고 슬림해 한 손 사용성이 강화됐다. ‘IM-100’은 퀄컴 스냅드래곤 430 프로세서를 기반으로 퀄컴의 최신 오디오 코덱 칩(WCD9326)을 탑재하여 향상된 음질을 느낄 수 있으며, 퀄컴의 APT-X 코덱을 지원하여 블루투스 이어폰과 스피커에서도 CD 수준의 고음질 음원을 감상할 수 있게 했다. ‘IM-100’은 색재현율 95%의 LCD를 채택하여 자연스러우면서도 선명한 화질을 즐길 수 있으며, 2GB RAM과 고객들의 사용시간을 고려하여 단말기 크기 대비 3,000mAh 대용량 배터리를 탑재하였다. 또한, 퀄컴 스냅드래곤 430 프로세서 채택으로 전류 소모가 20% 개선되었으며, 편리한 무선충전 기능도 제공한다.&nbsp;- 향상된 오디오 성능과 편리해진 오디오 사용성‘IM-100’은 퀄컴 오디오 최신 코덱 칩(WCD9326)을 탑재하여 사운드 음질에 대한 소비자의 니즈를 반영해 즐거움을 극대화했다. ‘IM-100’은 사용자가 어떤 이어폰을 사용하더라도 사용자 이어폰 임피던스에 맞게 자동으로 최대 음량 조정이 되는 자동 임피던스 체크 기능이 지원되고, 무손실 음원 FLAC(Free Lossless Audio Codec, 24bit/192kHz) 재생과 DRE(Dynamic Range Enhancement) 성능을 기존 110dB 대비 123dB로 향상시켜 원음 그대로의 생생한 음질을 느낄 수 있다.&nbsp;- 블루투스 APT-X 코덱‘IM-100’은 퀄컴의 APT-X 코덱을 지원하여 블루투스 이어폰, 스피커에서 CD 수준의 고음질 음원을 감상할 수 있게 했다. 기존 블루투스 규격인 SBC 코덱에 비교하여 APT-X 코덱은 더 높은 압축효율과 더 짧은 지연시간을 지원하기 때문에, 더욱 향상된 원음에 가까운 품질의 음악을 감상할 수 있다.- 자연스러우면서 선명한 화질의 LCDLCD의 경우 NTSC (미국 TV 방송 위원회) 기준으로 색 표현 능력을 측정할 수 있는데, 색재현율이 높을수록 실제 색상을 잘 표현할 수도 있지만 과도할 경우 오히려 색상의 왜곡이 발생할 수도 있다. ‘IM-100’에 채택된 LCD는 색재현율 95%의 가장 적절한 색표현력을 가진 LCD로 좀 더 밝고 자연스러우면서도 선명한 화질을 즐길 수 있다.- 복잡한 일상을 한층 심플하게 만들어 주는 무선충전하루에도 몇 번씩 충전을 위해 충전 케이블을 찾아 헤매야 하는 사용자의 불편함을 해소하고자 ‘IM-100’은 무선충전을 지원하여 ‘STONE’ 위에 단순히 올려 놓기만 하면 바로 충전이 시작된다. ‘IM-100’과 ‘STONE’은 무선국제표준협회(WPC)의 무선충전을 지원하여 WPC 무선충전을 지원하는 어느 장치에서든 사용할 수 있다.□&nbsp;음악과 멀티미디어 사용성 강화에 집중한 휠 키 UX‘IM-100’은 디자인 포인트인 휠 키를 기반으로 직관적이고 정밀한 100단계의 볼륨 조절과 어느 화면에서나 휠 키를 눌러 음악을 실행할 수 있는 ‘원 플레이어(ONE Player)’ 기능을 적용했다. 카메라에서는 휠 키를 돌려서 타이머 촬영을 할 수 있고, 휠 키만으로 쉽게 잠금을 해제할 수 있으며, 동영상과 음악 앱에서는 휠 키 조작을 통해 초 단위로 정밀하게 콘텐츠를 탐색할 수 있는 등 휠 키를 활용하여 멀티미디어 사용 편의성을 극대화하였다. 아울러, 휠 키 관련 기능들의 GUI 디자인에는 휠 키의 물리적인 조작에 따른 다이내믹한 모션을 적용하여 조작감을 강화했다.‘IM-100’은 고객이 자신의 취향과 목적에 맞게 자유롭게 단말을 사용할 수 있도록 꼭 필요하고 의미있는 기능만을 선정하여 제공하고 있다. 안드로이드 마시멜로우(Marshmallow 6.0.1) 버전을 적용하면서 기본 사용성 중심으로 강화했고, 최신 트렌드에 맞는 그래픽 스타일을 반영하여 세련되고 편리한 UX를 만들었다. 특히, 화이트 기반의 가볍고 산뜻한 컬러 시스템은 고객의 눈길을 사로잡을 것이다.- 퀵 스핀(Quick Spin)이 가능한 100단계 볼륨‘IM-100’는 휠 키를 이용한 100단계의 세밀한 볼륨 조절 기능을 제공한다. 사용자가 휠 키를 천천히 돌리면서 1단계씩 미세하게 자신에게 꼭 맞는 볼륨을 설정할 수 있고, 좀 더 빨리 돌릴 경우 볼륨이 20단계씩 변경되는 퀵 스핀 기능이 지원되어 상황에 따라 빠르게 볼륨 조절이 가능하다. 또한 볼륨 컨트롤러 GUI는 물이 차오르는 모션을 적용하여 정량적이면서도 재미있게 볼륨 단계를 보여준다.- 어느 화면에서나 바로 실행할 수 있는 원 플레이어(ONE Player)인터넷을 검색하거나 SNS를 보는 등 스마트폰을 사용 중인 어느 화면에서나 휠 키를 누르면 원 플레이어가 바로 실행되어 휠 키 조작 만으로 자신의 재생 목록 중 듣고 싶은 음악을 간편하게 선택하여 감상할 수 있다. 원 플레이어는 SKY 피처폰에서도 제공하였던 기능으로 ‘IM-100’에서는 기존 컨셉을 계승하면서도 휠 키와 연계하여 음악 기능의 접근성과 사용성을 높였다.- 휠 키로 더욱 편리해진 카메라와 멀티미디어 콘텐츠 정밀 탐색카메라에서는 기존의 ‘당겨서 찰칵’에 더하여 휠 키로 ‘돌려서 찰칵’ 기능을 실행할 수 있어 휠 키 만으로도 매우 간편하게 타이머 촬영을 할 수 있고, 슬라이드 잠금 화면에서는 휠 키를 누른 후 돌리면 쉽게 잠금을 해제할 수 있다. 그리고, 동영상과 음악, 녹음기와 같은 멀티미디어 앱에서는 휠 키 조작을 통해 초 단위로 정밀하게 콘텐츠를 탐색할 수 있어 동영상 강의나 어학 MP3 등으로 반복 학습할 때 효과적인 활용이 가능하다.□&nbsp;라이프 스타일을 바꿔줄 STONE‘IM-100’과 함께 제공되는 ‘STONE’ 은 실내 어디에 놓아도 인테리어 아이템으로 볼 수 있는 심미적인 아름다움과 풍성한 음악을 즐길 수 있는 충분한 음량과 음질(40Φ 3W 스피커 2개, 우퍼)을 제공한다. 저음역에서 고음역까지 한 대로 재생하는 전대역형 블루투스 스피커로 저음 상쇄를 막기 위한 인클로저(Enclosure) 채용으로 명료한 음 재생력 뿐 아니라 강력하고 풍부한 고품질의 중저음 재생을 위하여 패시브 라디에이터(Passive Radiator) 기술을 접목시켰으며, 스테레오 사운드 적용을 통해 다이내믹한 360도 서라운드 재생이 가능하다. ‘IM-100’은 ‘STONE’과 연계한 뮤직라이프를 즐길 수 있도록 32GB의 충분한 용량의 내장 메모리와 최대 2TB까지 지원하는 외장 메모리 슬롯도 제공한다.‘STONE’은 전용 앱과 연동하여 음악재생, 무드램프 등을 사용자가 손쉽게 설정할 수 있도록 편의성도 함께 고려하였다. 단일색상(색상은 설정 가능)부터 촛불, 오로라, 파도, 반딧불 등과 같은 다양한 무드 패턴을 지원하고, 고급스러운 색상의 금속 휠 키를 적용하였으며, 외부에서도 사용 가능하도록 충분한 용량의 배터리(2,600mAh)도 내장되어 10시간 이상의 음재생 시간으로 사용자의 편의성과 디자인을 극대화하였다. 이에 더하여, 외출 후 집으로 돌아왔을 때 사용자를 반겨주는 웰컴라이팅, 음악재생 중인 단말을 올려놓기만 하면 자동으로 ‘STONE’에서 소리가 재생되는 이지 페어링, 출근시간 또는 약속시간에 맞추어 30분 전부터 미리 시간을 알려주는 스마트시그널 등, ‘IM-100’과 연동된 다양한 부가적인 가치와 즐거움을 선사한다. (‘IM-100’ 과 ‘STONE’연동 기능은 보도참고자료 참조)‘IM-100’은 최고, 최신의 스펙, 새로운 기능보다는 기존부터 고객이 좋아하고 필요한 것들을 더 강화하고 편리하게 사용할 수 있는 것을 고민한 제품이며, 순수한 클래식 화이트와 고급감을 강조한 플래티넘 블랙 두 가지 컬러로 출시된다. (이상)
+								</p>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#" onclick="frmView(9112);return false;">
+								<div class="rl_img">
+									<img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008911&fileSn=1"
+									onerror="this.src='/mgr/images/common/thumnail_noimage.gif'" alt="">
+								</div>
+								<span class="rl_subject">팬택, 이마트 수서점에 서비스센터 신규 오픈</span>
+								<p class="rl_summary">
+									- 매각절차 중에도 사후서비스에 최선… 이마트 입점 서비스센터 23개점 운영
+- 최대 모바일 전문 서비스 네트워크 구축… 고객 접근성 및 편의성 우수
+- 소프트웨어 업그레이드 지속… 팬택 제품 사용자에게 최신 환경 제공
+
+
+팬택이 고객 편의를 향상시키기 위해 서비스 네트워크 효율화 작업을 지속 추진하고 있다.&nbsp;
+
+팬택은 연내 이마트 수서점에 팬택 서비스센터를 신규로 오픈하고, 현재 진행중인 매각절차 중에도 사후서비스 제공에 만전을 기할 것이라고 밝혔다.&nbsp;
+
+지난해부터 서비스센터를 이마트에 입점시켜 차별화된 서비스를 제공중인 팬택은 이번 팬택 서비스센터 이마트 수서점 오픈으로 총 23개의 이마트 입점 서비스센터를 운영하게 됐다. 팬택은 어려운 경영상황에서도 100여개의 서비스센터를 운영하며 최대 모바일 전문 서비스 네트워크를 유지해 나가고 있다.
+
+이마트 수서점에 신규로 오픈하는 팬택 서비스센터는 강남•송파구에서 방문하기 편리한 곳에 위치해 있어, 해당 지역 내 서비스 수요를 빠르게 흡수해 나갈 것으로 기대된다. 운영시간은 평일 오전 10시부터 오후 8시까지, 주말 및 공휴일에는 오전 10시부터 오후 7시까지다. 고객들이 시간을 효율적으로 사용할 수 있도록 대기 시간을 미리 알려주는 스마트 대기 시스템과 핸드폰이 수리되는 동안 사용할 수 있는 대여폰 서비스를 제공한다.&nbsp;
+
+팬택 고객감동실 한창현 실장은 “고객들이 언제 어디서나 쉽게 찾고 방문할 수 있는 서비스 네트워크를 구축하기 위한 노력을 지속할 것”이라며 “고객들이 불편함을 겪지 않도록 고객 편의를 최우선으로 하여 사후서비스를 제공해 나갈 것”이라고 밝혔다.&nbsp;
+
+한편, 팬택은 사후지원의 일환으로 소프트웨어 업그레이드를 지속적으로 실시하고 있다. 올해 하반기에만 3개 모델(베가 R3, 베가 넘버6, 베가 아이언)의 OS 업그레이드를 진행하였고, 고객들의 의견을 반영하여 기능을 한층 개선시킨 소프트웨어 신규 버전을 꾸준히 선보일 계획이다.&nbsp;
+
+특히, 펌웨어 업그레이드를 통해 베가 레이서, 베가 LTE 등 구형 모델을 대상으로는 최신 모델에 탑재된 최신 기능을, 베가 시크릿 업, 베가 시크릿 노트, 베가 아이언2 등 최신 모델을 대상으로는 고객들의 불편사항을 개선한 신규 소프트웨어 버전을 제공하고 있다.&nbsp;
+
+팬택은 향후에도 서비스센터, SNS 등을 통한 고객과의 커뮤니케이션을 바탕으로 서비스를 개선하고 소프트웨어 업그레이드를 진행하는 등 팬택 제품을 사용하는 고객들에게 최고의 서비스를 제공하기 위해 사후지원에 만전을 기할 방침이다. 
+
+								</p>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#" onclick="frmView(9004);return false;">
+								<div class="rl_img">
+									<img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000008472&fileSn=0"
+									onerror="this.src='/mgr/images/common/thumnail_noimage.gif'" alt="">
+								</div>
+								<span class="rl_subject">팬택, ‘팝업 노트’ 출고가 파격 책정 출시</span>
+								<p class="rl_summary">
+									- SK텔레콤 전용모델로 탄생한 팬택의 2번째 프리미엄 노트 LTE-A 스마트폰
+- 세계 최초로 DMB 안테나와 펜을 겸하면서, 간단한 터치로 뽑는 POP-UP펜 내장
+- 출고가 파격 책정… 최신 노트급 스마트폰을 월 8,000원으로 구입 가능
+
+
+
+
+
+팬택(대표이사 사장 이준우)은 세계 최초로 팝업 형식의 펜(스위치를 당기면 자동으로 튀어나오는 펜)을 탑재한 ‘베가 팝업 노트(VEGA POP-UP Note, 모델명: IM-A920S)’를 21일 SK텔레콤 전용 모델로 출시한다고 밝혔다.&nbsp;
+
+출고가는 35만 2천원으로 최신 프리미엄 노트 스마트폰으로는 파격적이다.&nbsp;
+‘베가 팝업 노트’는 SK텔레콤 전용 모델로 알려지며 시장의 이목을 집중시켰었다. 팬택의 매각절차로 인해 출시가 지연되었으나, 시장 기대에 맞는 파격적인 가격으로 본격적인 시장 공략에 나선다. 
+
+특히, ‘베가 팝업 노트’는 프리미엄 제품을 부담 없는 가격에 구입하고자 하는 소비자들에게 큰 호응을 받을 것으로 기대된다. 경쟁사의 최신 노트 스마트폰보다 출고가가 반 이상 낮고, 여기에 공시지원금까지 더해져 소비자들은 기존과 달리 프리미엄 제품을 20만원 이하의 파격적인 가격에 구입할 수 있게 됐다.
+
+팬택 마케팅본부 박창진 부사장은 “베가 팝업 노트는 단통법 등 최근 시장 상황을 고려해 출고가를 파격적으로 낮췄다”며 “베가 팝업 노트는 통신비 부담으로 프리미엄 노트 스마트폰 사용을 꺼리던 소비자들에게 새로운 대안이 될 수 있을 것으로 기대한다”고 밝혔다.&nbsp;
+□ 편리하고 실용적인 세계 최초 DMB 안테나 내장 ‘팝업(POP-UP) 펜’&nbsp;‘베가 팝업 노트’는 세계 최초로 DMB 안테나를 내장한 세미 오토(semi-auto) 팝업 형식의 터치펜을 탑재했다. 팬택은 사용자들의 펜 활용 빈도를 높일 수 있도록 재미와 실용성을 더해 펜을 다양한 상황에서 손쉽게 이용할 수 있게 했다.
+
+‘베가 팝업 노트’의 펜은 기기 오른쪽 측면에 위치한 펜 분리 스위치를 이용해 꺼낼 수 있다. 스위치를 당기면 펜이 자동으로 기기 밖으로 톡 튀어나와 조작의 재미를 느낄 수 있고, 물이 묻거나 장갑을 끼는 등 손을 사용하기 불편한 상황에서도 간편하게 펜을 분리할 수 있는 것이 장점이다.&nbsp;
+또한, 펜 자체에 DMB 안테나를 내장시켜 쓰임새를 높였다. 펜을 사용하지 않을 때에는 DMB 안테나로 활용할 수 있어 유용하다. 안테나가 내장되어 있는 특성상 길이 조절도 가능해 사용자가 자신의 손 크기에 최적화된 펜을 만들 수 있다.&nbsp;
+□ 사생활 보호•도난 방지에 탁월한 ‘스마트 보안기능’… 분실 방지 도난 경보, 시큐리티 매니저&nbsp;국내 업계 최초로 스마트폰 도난 방지 기술 ‘V 프로텍션’(베가 넘버6, 2013년 2월 출시)을 도입하고, 사생활을 보호해주는 ‘시크릿 기능’(베가 LTE-A, 2013년 8월 출시)을 선보이며 보안에 한 발 앞서가고 있는 팬택이 ‘베가 팝업 노트’를 통해 한층 더 강력한 보안기능을 선보인다.&nbsp; 
+‘분실 방지 도난 경보’는 카페나 식당 등 공공장소에서 분실이나 도난에 대한 걱정 없이 충전할 수 있도록 해주는 기능이다. 충전기를 분리한 후, 설정된 시간 내에 비밀번호를 입력하지 못하면 사이렌 소리와 함께 경보가 작동돼 도난이나 분실 가능성을 사전에 차단할 수 있다.
+
+‘시큐리티 매니저’는 타인이 잠금 해제에 실패하거나 유심을 제거할 경우, 그 내역을 메모리에 자동으로 저장해주는 기능이다. 사용자가 폰을 두고 자리를 비우거나 분실 후 다시 찾았을 때, 누군가가 자신의 휴대폰을 사용하려 했는지 여부를 확인할 수 있다. 특히, 유심이 제거되면 홈 화면 진입을 막아 타인의 무단 사용을 방지할 수 있다.&nbsp;
+또한, 기본 탑재된 ‘안심 클리너’ 앱을 통해 악성 앱 검사 및 스미싱 메시지에 대한 알림, 야간 충전 시 자동 검사 기능 등을 제공해 사용자들이 항상 최상의 보안 수준에서 안심하고 ‘베가 팝업 노트’를 사용할 수 있도록 했다. T 클라우드와 Btv 모바일 앱은 지문을 통해 편리하고 안전하게 로그인이 가능하다.&nbsp;
+□ 사용하는 즐거움을 배가시켜주는 최적의 성능… 1W 스피커, wide OIS 카메라&nbsp;‘베가 팝업 노트’는 멀티미디어 컨텐츠를 마음껏 즐길 수 있는 환경을 갖췄다. 1W급 스피커가 제공하는 풍부한 사운드로 듣는 즐거움을, 5.6인치 Natural IPS 대화면으로 보는 즐거움을 배가시켰다. 또한, 3,220mAh의 최대 용량 배터리가 탑재되어 충전에 대한 걱정 없이 오랜 시간 멀티미디어 컨텐츠를 즐길 수 있다.&nbsp;
+
+카메라에는 최대 보정각도로 흔들림을 잡아주는 wide OIS와 어두운 곳에서 촬영 시 자동으로 밝기를 높여주는 ‘Low Light Shot’ 기능이 적용되어 언제 어디서나 밝고 선명한 사진을 촬영할 수 있다. 또한, ‘스피드 모션’과 ‘슬로우 모션’ 모드로 동영상을 촬영하면 일반적인 속도보다 빠르거나 느린 재미있는 영상을 만들 수 있다.
+
+‘베가 팝업 노트’는 이 외에 사용자 편의 기능도 강화했다. 폰을 확인하려는 동작을 인지해 자동으로 시간 및 알림 화면을 보여주는 ‘라이브 업(Live UP)’, 오늘의 날씨와 일정, 할 일 정보 등을 한눈에 알 수 있게 보여주는 ‘투데이(Today)’ 기능 등이 적용되었다.&nbsp;
+‘베가 팝업 노트’는 크림 화이트(Cream White)와 마일드 블랙(Mild Black) 두 가지 컬러로 출시된다. 
+
+
+
+								</p>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+<form name="formList" id="formList" method="post" enctype="multipart/form-data" onsubmit="return false;">
+<input type="hidden" name="pageIndex" id="pageIndex" value="1"/>
+<input type="hidden" name="bbsID" id="bbsID" value="report"/>
+<input type="hidden" name="seq" id="seq" />
+<input type="hidden" name="ulcd" id="ulcd" value="KO"/>
+
+				<div class="paging_wrap">
+					
+					<div class="paging">
+						<a href="#" class="pg_on">1</a><span><a href="#" onclick="goPage(2); return false;">2</a></span><span><a href="#" onclick="goPage(3); return false;">3</a></span><span><a href="#" onclick="goPage(4); return false;">4</a></span><span><a href="#" onclick="goPage(5); return false;">5</a></span>
+
+					</div>
+					
+
+					<div class="more_view">
+						<button type="button" class="btn_more_page" onclick="frmNextPage()">더보기</button>
+						<a href="#" class="btn_ty" onClick="frmList();">목록</a>  
+						<button type="button" class="btn_sch_list"><span class="htxt">검색</span></button>
+					</div>
+
+					<div class="ly_pg_sch">
+						<div class="select_box">
+							<label for="searchYear">
+								
+									전체
+								
+								
+							</label>
+							<select id="searchYear" name="searchYear">
+								
+									<option value=""  >
+										전체
+									</option>
+								
+									<option value="2016"  >
+										2016년
+									</option>
+								
+									<option value="2015"  >
+										2015년
+									</option>
+								
+									<option value="2014"  >
+										2014년
+									</option>
+								
+									<option value="2013"  >
+										2013년
+									</option>
+								
+							</select>
+						</div>
+
+						<div class="select_box">
+							<label for="searchKey">
+								
+									전체
+								
+								
+							</label>
+							<select id="searchKey" name="searchKey">
+								<option value="0"  >전체</option>
+								<option value="1"  >제목</option>
+								<option value="3"  >내용</option>
+							</select>
+						</div>
+
+						<div class="box_tsch">
+							<input type="text" id="searchKeyword" name="searchKeyword" class="input_keyword" size="50" tabindex="1" placeholder="검색어를 입력하세요." value="">
+							<button type="submit" class="btn_schgo" onclick="frmSearch();return false;"><span class="htxt">검색</span></button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<hr class="hide">
+		<!-- //content -->
+</form>		
+		
+		<!-- footer -->
+		<div id="footer_wrap">
+			<div class="footer">
+				<div class="foot_logo"><a href="#"><img src="/img/common/logo_gray.png" alt="Pantech"></a></div>
+				<div class="foot_info">
+					<ul class="foot_menu">
+						<li><a href="/footer/privacyLegal.do">법적고지</a></li>
+						<li><a href="/footer/privacyTreat.do" class="txt_privacy">개인정보취급방침</a></li>
+						<li><a href="/footer/privacyPolicy.do" class="txt_privacy">개인정보처리방침</a></li>
+						<li><a href="/footer/privacyEmail.do">이메일주소무단수집거부</a></li>
+						<li><a href="http://iaudit.pantech.com/" target="_blank">사이버신문고</a></li>
+						<li><a href="/footer/privacySiteMap.do">Sitemap</a></li>
+					</ul>
+					<address class="txt_address">서울시 마포구 상암동 성암로179 팬택빌딩 1588-9111</address>
+					<p class="txt_copyright">COPYRIGHT BY PANTECH ALL RIGHTS RESERVED.</p>
+				</div>
+			</div>
+			<button class="btn-top">Top</button>
+		</div>
+		<!-- //footer -->
+
+	</div>
+ </body>
+</html>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var searchKey = $('select#searchKey');
+
+		searchKey.change(function(){
+		    var select_name = $(this).children('option:selected').text();
+		    $(this).siblings('label').text(select_name);
+		});
+		  
+		var searchYear = $('select#searchYear');
+
+		searchYear.change(function(){
+		    var select_name = $(this).children('option:selected').text();
+		    $(this).siblings('label').text(select_name);
+		});
+		  
+		$("input[name=searchKeyword]").keydown(function(key){
+			if(key.keyCode == 13){
+				frmSearch();
+		    }
+		});
+		
+	});
+	
+	function frmSearch(){
+		if( document.formList.searchKeyword.value == "" ) {
+			alert("검색어를 입력하세요.");
+			document.formList.searchKeyword.focus() ;
+			return;
+		}
+		
+		document.formList.pageIndex.value = 1 ;
+		document.formList.action = "/promotion/coverage.do";
+	   	document.formList.submit();
+	}
+	
+	function frmView(seq){
+		document.formList.seq.value = seq;
+		document.formList.action = "/promotion/coverageView.do";
+	   	document.formList.submit();
+	}
+	
+	function frmNextPage(){
+		var pageIndex = document.formList.pageIndex.value;
+		var totalPageCount = "76";
+		
+		if( Number(pageIndex) >= Number(totalPageCount) ){
+			return false;
+		}
+		
+		document.formList.pageIndex.value = Number(pageIndex) + 1 ;
+		document.formList.action = "/promotion/coverage.do";
+	   	document.formList.submit();
+	}
+	
+	function frmList(){
+		document.formList.pageIndex.value = 1 ;
+		document.formList.searchYear.value = "" ;
+		document.formList.searchKey.value = "" ;
+		document.formList.searchKeyword.value = "" ;
+		document.formList.action = "/promotion/coverage.do";
+		document.formList.submit();
+	}
+	
+	//페이징
+	function goPage(page){
+		document.formList.pageIndex.value = page;
+		document.formList.action = "/promotion/coverage.do";
+	   	document.formList.submit();
+	}
+</script>

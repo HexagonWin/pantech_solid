@@ -1,0 +1,486 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="now" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PANTECH</title>
+	<link type="text/css" rel="stylesheet" href="/common/css/pantech_base.css" />
+	<link type="text/css" rel="stylesheet" href="/common/css/pantech_layout.css?v=20141121" />
+	<script type="text/javascript" src="/common/js/jquery-1.7.2.min.js "></script>
+	<script type="text/javascript" src="/common/js/pantech_ui.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.bxSlider.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<!--[if lt IE 9]>
+		<script src="/common/js/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+
+
+	
+</head>
+<body id="en">
+	<div id="pantech_wrap">
+		<div id="pantech_nav">
+			<div class="nav">
+				<!-- HEADER -->
+				
+	<div id="skipNavi_header">
+		<ul>
+		<li><a href="#pantech_header">go first</a></li>
+		<li><a href="#pantech_lnb">go LNB</a></li>
+		<li><a href="#pantech_utilMenu">go util</a></li>
+		<li><a href="#pantech_gnb">go top</a></li>
+		<li><a href="#pantech_contents">go contents</a></li>
+		<li><a href="#pantech_footer">go footer</a></li>
+		</ul>
+	</div>
+	<hr />
+	<div id="pantech_header">
+		<h1><a href="/en/index.do">PANTECH</a></h1>
+		<!-- 
+		<div class="languageBox">
+			<ul class="language">
+				<li class="kor"><a href="#" class="lang">Korea</a></li>
+				<li class="eng"><a href="#" class="lang">English</a></li>
+			</ul>
+		</div>
+		 -->
+	</div>
+				<!-- //HEADER -->
+				<!-- LNB & UTILMENU -->
+				
+
+
+
+    <!-- LNB -->
+<div id="pantech_lnb">
+        <ul class="lnb">
+        <li class="oneDepths">
+            <a href="/en/pantech/pantechMain.do" class="oneDepthsMenu "><img src="/images/en/menu/menu_pantech_off.png" alt="Pantech" /></a>
+            <ul class="towDepths_wrap">
+                <li class="towDepths h37">
+                    <a href="/en/pantech/pantechCeo.do"  >CEO</a><!-- 선택시 class="on" -->
+                </li>
+                <li class="towDepths towDown h50">
+                    <a href="/en/pantech/pantechPhilosophy.do" >Corporate<br/>Information</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths h35"><a href="/en/pantech/pantechPhilosophy.do" >Corporate Philosophy</a></li>
+                        <li class="threeDepths h22"><a href="/en/pantech/pantechCi.do" >CI</a></li>
+                        <li class="threeDepths h22"><a href="/en/pantech/pantechAffiliate.do" >Summary</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths h37">
+                    <a href="/en/pantech/pantechHistoryYear.do" >History</a>
+                </li>
+                <li class="towDepths towDown h50">
+                    <a href="/en/pantech/pantechBusiness.do" >Business<br/>Network</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths h22"><a href="/en/pantech/pantechBusiness.do" >Overview</a></li>
+                        <li class="threeDepths h22"><a href="/en/pantech/pantechDomestic.do" >Domestic</a></li>
+                        <li class="threeDepths h22"><a href="/en/pantech/pantechOverseas.do" >Overseas</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown h50">
+                    <a href="/en/pantech/pantechEcoPolicy.do" >Environmental<br/>Management</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths h48"><a href="/en/pantech/pantechEcoPolicy.do" >Environmental<br/>Management<br/>Policy</a></li>
+                        <li class="threeDepths h48"><a href="/en/pantech/pantechEcoSystem.do" >Environmental<br/>Management<br/>System</a></li>
+                        <li class="threeDepths h48"><a href="/en/pantech/pantechEcoToxic.do" >Hazardous<br/>Substances<br/>Management</a></li>
+                        <li class="threeDepths h48"><a href="/en/pantech/pantechEcoSupply.do" >Supply Chain<br/>Substance<br/>Management</a></li>
+                        <li class="threeDepths h22"><a href="/en/pantech/pantechEcoDesign.do" >Eco Design</a></li>
+                        <li class="threeDepths h48"><a href="/en/pantech/pantechEcoFriendly.do" >Environment<br/>friendly<br/>Products</a></li>
+                        <li class="threeDepths h35"><a href="/en/pantech/pantechEcoDeclations.do" >Product Eco<br/>Declaration</a></li>
+                        <li class="threeDepths h35"><a href="/en/pantech/pantechEcoRecycle.do" >Product<br/>Recycling</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths h37">
+                    <a href="/en/pantech/pantechTechnology.do"  >Technology</a>
+                </li>
+                <li class="towDepths h37">
+		            <a href="/en/pantech/pantechBizReport.do"  >Sustainability</a>
+		        </li>
+		        <li class="towDepths h50">
+                    <a href="/en/board/rehabilitationBoardList.do" >Rehabilitation Proceedings<br/></a>
+                </li>
+		        <li class="towDepths h50">
+                    <a href="/en/board/mergeBoardList.do"  >M&A of<br/>Pantech</a>
+                </li>
+            </ul>   
+        <li class="oneDepths">
+            <a href="/en/prod/prodMain.do" class="oneDepthsMenu"><img src="/images/en/menu/menu_product_off.png" alt="Product" /></a>
+            <ul class="towDepths_wrap">
+                <li class="towDepths h37"><a href="/en/prod/prodList.do?gbrand=VEGA" >Domestic</a></li>
+                <li class="towDepths h37"><a href="/en/prod/prodList.do?gbrand=PANTECH" >Overseas</a></li>
+                <li class="towDepths h37"><a href="/en/prod/prodList.do?gbrand=IOT" >IoT</a></li>
+            </ul>
+        </li>
+        <li class="oneDepths">
+            <a href="/en/board/reportBoardList.do" class="oneDepthsMenu on"><img src="/images/en/menu/menu_pr_off.png" alt="Press Center"/></a>
+            <ul class="towDepths_wrap">
+                <li class="towDepths h50"><a href="/en/board/reportBoardList.do"   class="on" >Press<br/>Release</a></li>
+                <li class="towDepths towDown h50">
+                    <a href="/en/gallery/galleryProdList.do" >Photo<br/>Archives</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths h22"><a href="/en/gallery/galleryProdList.do"  >Products</a></li>
+                        <li class="threeDepths h22"><a href="/en/gallery/gallerybuildingList.do" >Building</a></li>
+                        <li class="threeDepths h22"><a href="/en/gallery/galleryRdList.do" >R&D</a></li>
+                        <li class="threeDepths h22"><a href="/en/gallery/galleryMakeList.do" >Manufacture</a></li>
+                    </ul>
+                </li>
+                <li class="towDepths towDown">
+                    <a href="/en/board/adTVBoardList.do" >Advertising</a>
+                    <ul class="threeDepths_wrap">
+                        <li class="threeDepths h22"><a href="/en/board/adTVBoardList.do">TV AD</a></li>
+                        <li class="threeDepths h22"><a href="/en/board/adPrintBoardList.do">Print</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>  
+<!-- UTIL -->
+<div id="pantech_utilMenu">
+    <ul class="util mgl12">
+        <li class="menu01"><a href="/en/util/privacyLegal.do">Legal</a></li>
+        <li class="menu03"><a href="/en/util/privacyPolicy.do"><strong style="font-size: 10pt;">Privacy Policy</strong></a></li>
+        <li class="menu05"><a href="/en/util/privacyMap.do">Location</a></li>
+    </ul>
+    <div class="familywrap mgt4">
+        <a href="#"><img src="/images/common/btn_family.gif" alt="FamilySite" /></a>
+        <div class="family">
+            <a href="#"><img src="/images/common/btn_family_on.png" alt="FamilySite" /></a>
+            <ul class="mgt15">
+                <li class="menu01"><a href="http://www.isky.co.kr" target="_blank">SKY</a></li>
+                <li class="menu03"><a href="http://www.skyservice.co.kr/main.sky" target="_blank">SKY 서비스센터</a></li>
+                <!--<li class="menu05"><a href="http://cloudlive.vegalive.co.kr/view/pages/home.jsp" target="_blank">Cloud Live</a></li>
+                <li class="menu06"><a href="http://medialive.vegalive.co.kr/" target="_blank">Media Live</a></li>
+                <li class="menu07"><a href="http://appsplay.vegalive.co.kr/main/main.sky" target="_blank">Appsplay</a></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //UTIL -->
+    
+				<!-- //LNB & UTILMENU -->
+			</div>
+		</div>
+		<div id="pantech_container" class="sub">
+			<div class="sub">
+				<!-- GNB -->
+				<div class="top_menu">
+					
+	<div>
+		<div id="pantech_gnb" class="floatR">
+			<!-- GNB -->
+			<div class="gnb">
+				<ul>
+					<li class="first"><a href="https://www.pantech.co.kr/en/contactus/contactUsForm.do"><img src="/images/ko/menu/gnb_02.gif" alt="Contact Us" /></a></li>
+					<li><a href="/en/util/sitemap.do"><img src="/images/ko/menu/gnb_03.gif" alt="Sitemap" /></a></li>
+				</ul>
+			</div>
+			<!-- // GNB -->
+			<!-- GLOBAL -->
+			<div class="global topUtil">
+				<a href="#"><img src="/images/common/btn_global_off.gif" alt="Global" /></a>
+				<div class="global_menu">
+				<ul>
+					<li class="menu01"><a href="http://www.pantechusa.com/" target="_blank">USA</a></li>
+					<li class="menu02"><a href="http://jp.pantech.com/" target="_blank">Japan</a></li>
+				</ul>
+				</div>
+			</div>
+			<!-- // GLOBAL -->
+			<!-- language -->
+			<div class="language topUtil">
+				<a href="#"><img src="/images/common/btn_language_off.gif" alt="language" /></a>
+				<div class="language_menu">
+				<ul>
+					<li class="menu01"><a href="/">Korean</a></li>
+					<li class="menu02"><a href="/en/index.do">English</a></li>
+				</ul>
+				</div>
+			</div>
+			<!-- // language -->
+		</div>
+	</div>
+	<div class="sns_search">
+		<!-- TOP SEARCH -->
+		<form class="floatR" id="searchFrm" method="post" action="/en/search/searchList.do">
+			<fieldset id="top_search">
+			<input type="text" class="input_search" name="searchKeyword" id="id_searchKeyWord"/>
+			<a href="#" onClick="searchFrmChk();return false;"><img src="/images/common/btn_search.gif" alt="search" class="mgt4"/></a>
+			</fieldset>
+		</form>
+		<!-- // TOP SEARCH -->
+	</div>
+<script type="text/javascript">
+var searchFrmChk = function(){
+	if($("#id_searchKeyWord").val() == ""){
+		alert("Please enter a search term.");
+		$("#id_searchKeyWord").focus();
+		return false;
+	}else{
+		searchFrm.submit();
+	}
+}
+</script>
+				</div>
+				<!-- //GNB -->
+				<!-- CONTENTS -->
+				<div id="pantech_contents">
+					<!-- 보도자료 -->
+					<h2><img src="/images/en/title/h2_pr_press.gif" alt="Press Release" /></h2>
+					<p class="page_description">Pantech Group’s domestic and international news release</p>
+					<!-- 팬텍컬쳐 -->
+					<!-- <h2><img src="/images/ko/title/h2_pr_culture.gif" alt="펜텍컬쳐" /></h2>
+					<p class="page_description">팬택의 다양하고 재미있는 이야기를 전합니다.</p> -->
+					<!-- R&D 스토리 -->
+					<!-- <h2><img src="/images/ko/title/h2_pr_rnd.gif" alt="R&D 스토리" /></h2>
+					<p class="page_description">세계 시장을 선도하는 팬택의 기술성과를 소개합니다.</p> -->
+					<!-- BSS VIEW -->
+					<table class="view" cellspacing="0" cellpadding="0">
+						<caption>BOARD VIEW</caption>
+						<colgroup>
+							<col width="">
+							<col width="20%">
+						</colgroup>
+						<tr>
+							<td class="title">Pantech demonstrates its fine craftsmanship through ‘IRON 2’</td>
+							<td class="date">2014.05.09</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="contents">
+								<p><strong>- The new Vega Iron draws on Pantech’s premium craftsmanship</strong></p>
+<p><strong>- Vega Iron2 represents Pantech’s endless evolution skills in smartphone design</strong></p>
+<p><strong>- Vega Iron 2 features the user-friendliest UX ‘Flux 3.0’ and upgraded 'Façade GUI'</strong></p>
+<p><strong>- Signature Studio enhances customer value and secret case that supports fingerprint recognition</strong></p>
+<p><strong><br></strong></p><p></p><div style="text-align: center;"><img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000007998" title="0509_588x400.jpg"><br style="clear:both;"><br></div><p>
+
+Pantech held a Media Day at Pantech’s R&amp;D Center in Sangam-dong on May 8 and officially announced its latest flagship handset: the Vega Iron 2 (IM-A910S/K/L). It will be sold through Korea’s three major mobile carriers, SK Telecom, KT and LG Uplus next week.&nbsp;</p><p><br></p><p> 
+Its aesthetic style and top specs are proof that Vega Iron 2 benefits from all the expertise and know-how of Pantech.</p><p><br></p><p>
+ 
+Lee Jun-woo, CEO of the company, stated that Vega Iron 2 is the masterpiece of Pantech, demonstrating the company’s pride and differentiated values. He proclaimed, "We are convinced that it will help us regain the reputation that makes people trust our products."</p><p><br></p><p><b style="line-height: 1.5;"><span style="font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:KO;mso-bidi-language:AR-SA">□&nbsp;</span></b><b>Vega Iron 2: Excellent craftsmanship and design. the fruit of the most advanced technology</b>&nbsp;</p><p><br></p><p>
+With both its metal body and minimal design, Vega Iron 2 has a genuine simplicity that represents Vega’s long-lasting values. Shaped along diagonal lines, the smartphone has an oblique style which gives it a sense of consistent proportions.&nbsp;</p><p><br></p><p> 
+Made from real metal, Vega Iron 2 has been sophisticatedly produced. The metal is added through hundreds of processes such as metal abrading, polishing and hairlining. It comes in 6 stylish two-tone colors thanks to the hard-anodizing method used in its manufacturing.</p><p><br></p><p>
+
+Besides, Vega Iron 2 has inherited the previous version’s ‘endless metal’ design, the world’s first such technology. Although it allows wider frequencies a stable antenna performance is guaranteed.&nbsp;</p><p><br></p><p>  
+ 
+Vega Iron 2 is therefore being touted as a high-end smartphone made thanks to the craftsmanship skills of Pantech.&nbsp;</p><p><br></p><p><b style="line-height: 1.5;"><span style="font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:KO;mso-bidi-language:AR-SA">□&nbsp;</span></b><b>Vega Iron 2: Outstanding performance based on cutting-edge technology</b>&nbsp;</p><p><br></p><p>‘Measuring 144.2 x 73.5 x 7.9mm and weighing 152 grams, the Pantech Vega Iron 2 sports a 5.3-inch 1080p Super AMOLED display. It also boasts a home menu and a terrestrial DMB but facilitates one-hand usage. In addition, a powerful quad-core Snapdragon 801 CPU and 3GB of RAM provide fast transmission speeds. To satisfy customer needs, Vega Iron 2 offers even more upgraded functions that are favored by customers as well as some new features.</p><p><br></p><p>- <u>3,220mAh, by far the largest battery capacity among smartphones</u>&nbsp;</p><p>Its battery capacity of 3,220 milliamps per hour (mAh) is the largest in the industry. Thanks to Pantech’s own power saving features, it innovatively reduces battery power consumption through maximization of the power consumption level. Full recharging time has been reduced to 110 minutes due to Vega Iron’s high-speed recharging system that is able to take heat and battery life into consideration.&nbsp;</p><p><br></p><p>- <u>Wide OIS Camera</u>&nbsp;</p><p>One of the key features of Vega Iron 2 is the wide-optical-image-stabilizer camera, which allows users to take clearer and brighter pictures. Besides, thanks to its aperture with a f2.0 lens with a BSI sensor, the nation’s first camera lens for a smartphone, users can get consistent exposure even in the dark.&nbsp;</p><p><br></p><p>- <u>Curved Speaker</u>&nbsp;</p><p>Another considerable feature of Vega Iron 2 is its curved speakers made from a suitable metal. Its unique elegance is unbeatable as opposed to phones which frames are made of metal-like plastic. With their L shape, the curved speakers are not only aesthetically pleasing but also deliver a clear sound whatever side or position the phone is in.</p><p><br></p><p>- <u>Pinpoint Lighting</u>&nbsp;</p><p>The metal pin-point light glows for missed calls, received messages and battery status. Seven important notices are delivered via seven LED lights. The upper side of this gadget is well-tailored, finely cut at 45 degrees and a pin-point light is sophisticatedly embodied. This pinpoint lighting function provides information by the color of the light and can be modified by users.&nbsp;</p><p><br></p><p><b style="line-height: 1.5;"><span style="font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:KO;mso-bidi-language:AR-SA">□&nbsp;</span></b><b>Enhanced User Experience: UX ' Flux 3.0' and Façade GUI icon</b>&nbsp;</p><p><br></p><p> 
+As part of the design project, a newly developed 'FLUX 3.0' is embodied in Vega Iron 2 aiming at making the interior and exterior even more aesthetically pleasing. As smartphone users prefer benefiting from improved basic functions instead of getting new ones, Pantech has enhanced the usability of the fundamental functions in its ‘FLUX 3.0,’ which are often used by smartphone holders. The GUI has been sensually developed according to recent trends.&nbsp;</p><p><br></p><p> 
+The UX concept of ‘Vega Iron 2’ is Façade GUI. A façade is generally one exterior side or the front of a building and the facade of a building is often the most important aspect from a design standpoint, as it sets the tone for the rest of the building. For Vega Iron 2 a simple and vivid façade icon has been applied and the overall basic functions have been reconfigured.&nbsp;</p><p><br></p><p>- <u>Live UP</u>&nbsp;</p><p>'Live Up' quickly recognizes when users are about to check their smartphones and thus current time automatically appears on the notification screen. For example, the action of taking the phone out of one's pocket or lifting it up from the desk makes essential kinds of information such as current time, missed calls and unchecked messages appear on the screen.&nbsp;</p><p><br></p><p>- <u>Strengthened Design Home and Widget Design</u>&nbsp;</p><p>The ‘Design Home’ has been the stand out feature of Vega and beloved by Vega users. It is now even more advanced. With the Design Home users can design their own background screen by laying out photos or icons wherever they want without having to download a separate launcher. Moreover, users can share their own designed home screen with others through the import and export functions of AppPlay.&nbsp;</p><p><br></p><p>- <u>Phone Book</u>&nbsp;</p><p>By learning from the users' habits and their usage patterns, Vega Iron 2 has been improved through easier functionality and a more pleasing design. Pantech noticed the difficulty of drawing a straight line on the screen when receiving calls when manipulating the phone with just one hand. They consequently added parabolic line recognition. Besides, important contacts can be separately managed. The phone includes a new and unique incoming call screen that lets users swipe from right to left to answer or swipe the other way to ignore a call.</p><p><br></p><p><b><span style="line-height: 1.5;"><span style="font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:KO;mso-bidi-language:AR-SA">□</span></span>&nbsp;Signature Studio and Secret Case that increases value for customers</b>&nbsp;</p><p><br></p><p>- <u>Signature Studio</u>&nbsp;</p><p>Signature studio is a differentiated premium service which has already been well received by customers and so Pantech decided to celebrate the release of Vega Iron 2 with this. Users can have anything from simple letters to handwritten words carved onto their metal phone, which is definitively a 'signature' service for them. Either by downloading the request form from the Vega Brand website (<a href="http://www.ivega.co.kr" target="_self">www.ivega.co.kr</a>) or by using a mobile application, users can have their own signature carved onto the metal and this service is available from 25 service centers including 22 E-Mart stores nationwide.&nbsp;</p><p><br></p><p>- <u>Secret Case</u>&nbsp;</p><p>Users can also add Pantech's Vega Secrete Case to the device which allows them to use the fingerprint-screening feature to enhance the level of security. This helps maintain the identity of the Vega Series phones along with their sophisticated design. Once the secret case is attached to the Vega Iron 2, VEGA Secret Note’s exclusive ‘Secret Box’ and ‘Secret Phonebook’ strengthens Vega’s differentiated privacy protection function in addition to the existing secret mode, a customized security mode allowing users to release the screen locks or even hide certain screens through fingerprint recognition. Secret case will be provided free of charge for early purchasers of Vega Iron 2 and it is available from the official Vega Series accessories online mall (<a href="http://www.ivega.co.kr" target="_self">www.ivega.co.kr</a>).</p><p><br></p><p>- <u>VEGA brand emblems, fonts and sounds</u>&nbsp;</p><p>For Vega Iron 2, Pantech has unveiled emblems, different fonts and sounds under the name of the VEGA brand. The simple and sophisticated emblems and fonts and cheerful and rhythmical sounds will add pleasure to the usage of the phone.&nbsp;</p><p><br></p><p>
+
+Vega Iron 2 runs on the Android 4.2.2 Kitkat operating system and the range includes the black iron series (gold, red and silver) and the white series (champagne gold, rose pink and shiny silver). 
+
+
+
+
+
+</p><p></p><p><span style="LINE-HEIGHT: 1.5"><br></span></p>
+							</td>
+						</tr>
+					</table>
+					<!-- //BSS VIEW -->
+					<!-- BUTTON -->
+					<div class="buttons pdt15 mgb40 borderT_gray01">
+						<div class="floatL pdl20" >
+							
+								
+									<a href="#" class="btn_prev" onclick="frmView('6968 ');return false;" title="prev">prev</a>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							
+								
+									<a href="#" class="btn_next" onclick="frmView('11786');return false;" title="next">next</a>
+								
+							
+								
+							
+								
+							
+						</div>
+						<div class="floatR" >
+							<a href="#" class="btn_blue_02" onclick="frmList();return false;">List</a>
+						</div>
+					</div>
+					<!--// BUTTON -->
+					<!-- THUMLIST -->
+					<ul class="thumList_view borderT_blue02">
+
+						<li>
+							<a href="#" onclick="frmTopView('11788');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA?atchFileId=FILE_000000000008988&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											Pantech to Begin Sof...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" onclick="frmTopView('11786');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA?atchFileId=FILE_000000000008983&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											Pantech returns with...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" onclick="frmTopView('8338');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA?atchFileId=FILE_000000000007999&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											Pantech demonstrates...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" onclick="frmTopView('6968');return false;">
+								<!-- thumnail : 144 * 86 (리스트 thumnail과 동일 파일 -->
+								<img src="/cmm/fms/getImage.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA?atchFileId=FILE_000000000007078&fileSn=0" onerror="this.src='/mgr/images/common/thumnail_noimage.gif'"  width="144" height="86" alt="thumnail image" />
+								<div class="thumTitle">
+									 
+										
+											Pantech discloses th...
+										
+										
+									
+								</div>
+							</a>
+						</li>
+
+					</ul>
+					<!-- // THUMLIST -->
+				</div>
+				<!-- CONTENTS -->
+				<!-- FOOTER -->
+				
+	<div id="pantech_footer">
+	    <!-- 모바일 버젼으로 보기 -->
+        
+        <!-- 모바일 버젼으로 보기 -->
+        
+        
+		<img src="/images/en/footer/footer_04.gif" class="mgb6" alt=""/><br/>
+		<img src="/images/common/copyright.gif" alt="Copyright BY Pantech. All Rights Reserved."/>
+	</div>
+	<hr />
+	<div id="skipNavi_footer">
+		<ul>
+		<li><a href="#pantech_header">go first</a></li>
+		<li><a href="#pantech_lnb">go LNB</a></li>
+		<li><a href="#pantech_utilMenu">go util</a></li>
+		<li><a href="#pantech_gnb">go top</a></li>
+		<li><a href="#pantech_contents">go contents</a></li>
+		<li><a href="#pantech_footer">go footer</a></li>
+		</ul>
+	</div>
+<!-- google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33536532-1']);
+  _gaq.push(['_setDomainName', 'pantech.co.kr']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+				<!-- //FOOTER -->
+			</div>
+		</div>
+	</div>
+<form name="formView" id="formView" method="post" enctype="multipart/form-data">
+<input type="hidden" name="pageIndex" id="pageIndex" value="1"/>
+<input type="hidden" name="bbsID" id="bbsID" value="report"/>
+<input type="hidden" name="val4" id="val4" value="" />
+<input type="hidden" name="val8" id="val8" value="reg_dt"/>
+<input type="hidden" name="seq" id="seq" />
+<input type="hidden" name="sdt" id="sdt" value="" />
+<input type="hidden" name="edt" id="edt" value="" />
+<input type="hidden" name="ulcd" id="ulcd" value="EN"/>
+</form>	
+<script type="text/javascript">
+	function frmView(seq){
+		if(seq == "" || seq == 0 || seq == null){
+			alert("There are no pages.");
+			return;
+		}else{
+		document.formView.seq.value = seq;
+		document.formView.action = "/en/board/reportBoardView.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA";
+	   	document.formView.submit();
+		}
+	}
+	
+	function frmTopView(seq){
+		document.formView.seq.value = seq;
+		document.formView.sdt.value = "";
+		document.formView.edt.value = "";
+		document.formView.val4.value = "";
+		document.formView.pageIndex.value = 1;
+		document.formView.action = "/board/reportBoardView.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA";
+	   	document.formView.submit();
+	}
+	
+	function frmList(){
+		document.formView.action = "/en/board/reportBoardList.do;jsessionid=C98EF4AAFC0840C7180BB287130686AA";
+	   	document.formView.submit();
+	}
+	
+</script>
+</body>
+</html>
